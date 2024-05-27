@@ -1,0 +1,6 @@
+avocado.core.visual
+===================
+
+.. automodule:: avocado.core.visual
+	:members:
+

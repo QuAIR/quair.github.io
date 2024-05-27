@@ -1,0 +1,9 @@
+avocado.operator.channel.functional
+===================================
+
+.. automodule:: avocado.operator.channel.functional
+	:members:
+
+.. toctree::
+
+    avocado.operator.channel.functional.common

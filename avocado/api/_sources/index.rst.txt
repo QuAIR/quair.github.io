@@ -1,0 +1,18 @@
+.. |avocado| unicode:: U+1F951
+
+Welcome to Avocado's documentation!
+====================================
+
+|avocado| `Go to QuAIR-PLATFORM Home <https://tengxianglin.github.io/QuAIR-platform/>`_
+
+.. toctree::
+    :maxdepth: 1
+    :caption: API Documentation
+
+    avocado.circuit
+    avocado.qinfo
+    avocado.loss
+    avocado.ansatz
+    avocado.core
+    avocado.database
+    avocado.operator

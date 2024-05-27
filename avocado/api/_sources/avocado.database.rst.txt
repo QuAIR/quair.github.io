@@ -1,0 +1,13 @@
+avocado.database
+================
+
+.. automodule:: avocado.database
+	:members:
+
+.. toctree::
+
+    avocado.database.state
+    avocado.database.random
+    avocado.database.matrix
+    avocado.database.hamiltonian
+    avocado.database.representation
