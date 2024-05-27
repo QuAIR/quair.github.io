@@ -6,7 +6,7 @@ avocado.operator.channel
 
 .. toctree::
 
-    avocado.operator.channel.functional
-    avocado.operator.channel.common
-    avocado.operator.channel.base
     avocado.operator.channel.custom
+    avocado.operator.channel.functional
+    avocado.operator.channel.base
+    avocado.operator.channel.common

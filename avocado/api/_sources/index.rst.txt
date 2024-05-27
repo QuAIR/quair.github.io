@@ -10,9 +10,9 @@ Welcome to Avocado's documentation!
     :caption: API Documentation
 
     avocado.circuit
-    avocado.qinfo
-    avocado.loss
-    avocado.ansatz
-    avocado.core
-    avocado.database
     avocado.operator
+    avocado.loss
+    avocado.qinfo
+    avocado.ansatz
+    avocado.database
+    avocado.core

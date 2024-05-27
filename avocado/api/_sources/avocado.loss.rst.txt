@@ -6,5 +6,5 @@ avocado.loss
 
 .. toctree::
 
-    avocado.loss.measure
     avocado.loss.distance
+    avocado.loss.measure

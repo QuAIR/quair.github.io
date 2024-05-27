@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://tengxianglin.github.io/QuAIR-platform/</loc>
-         <lastmod>2024-04-16</lastmod>
+         <loc>https://quair.github.io/</loc>
+         <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tengxianglin.github.io/QuAIR-platform/about/</loc>
-         <lastmod>2024-04-16</lastmod>
+         <loc>https://quair.github.io/about/</loc>
+         <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tengxianglin.github.io/QuAIR-platform/api/</loc>
-         <lastmod>2024-04-16</lastmod>
+         <loc>https://quair.github.io/api/</loc>
+         <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tengxianglin.github.io/QuAIR-platform/installation/</loc>
-         <lastmod>2024-04-16</lastmod>
+         <loc>https://quair.github.io/installation/</loc>
+         <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tengxianglin.github.io/QuAIR-platform/research/</loc>
-         <lastmod>2024-04-16</lastmod>
+         <loc>https://quair.github.io/research/</loc>
+         <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tengxianglin.github.io/QuAIR-platform/avocado/</loc>
-         <lastmod>2024-04-16</lastmod>
+         <loc>https://quair.github.io/avocado/</loc>
+         <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tengxianglin.github.io/QuAIR-platform/avocado/tutorial/</loc>
-         <lastmod>2024-04-16</lastmod>
+         <loc>https://quair.github.io/avocado/tutorial/</loc>
+         <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tengxianglin.github.io/QuAIR-platform/qec/about/</loc>
-         <lastmod>2024-04-16</lastmod>
+         <loc>https://quair.github.io/qec/about/</loc>
+         <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

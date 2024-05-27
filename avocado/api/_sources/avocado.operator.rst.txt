@@ -7,5 +7,5 @@ avocado.operator
 .. toctree::
 
     avocado.operator.special
-    avocado.operator.gate
     avocado.operator.channel
+    avocado.operator.gate
