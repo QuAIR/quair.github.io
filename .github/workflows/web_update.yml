@@ -2,7 +2,7 @@ name: API Auto Update  # The name of the workflow indicates its purpose to autom
 
 on:  # Defines the events that trigger the workflow.
   push:
-    branches: ["dev"]  # This workflow is triggered by pushes to the 'dev' branch.
+    branches: ["main"]  # This workflow is triggered by pushes to the 'dev' branch.
   workflow_dispatch:  # This allows the workflow to be manually triggered.
 
 permissions:
