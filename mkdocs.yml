@@ -8,7 +8,7 @@ nav:
   - Avocado:
       - About: avocado/index.md
       - Tutorial: avocado/tutorial.md
-      - API: avocado/api/index.html
+      - API: https://leizhang-116-4.github.io/QuAIR-platform/
   - MPQQ: MPQQ/about.md
   - QuICK: QuICK/about.md
   - Research: research.md
