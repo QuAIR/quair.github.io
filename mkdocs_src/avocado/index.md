@@ -1,0 +1,1 @@
+**Avocado** is a quantum rsearch platform designed to empower researchers in the QuAIR team, by providing a robust and efficient suite of tools tailored for quantum computing and quantum information research.

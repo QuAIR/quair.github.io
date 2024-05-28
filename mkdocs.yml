@@ -1,0 +1,59 @@
+docs_dir: mkdocs_src
+site_dir: site
+site_name: QuAIR-Platform (beta)
+site_url: https://leizhang-116-4.github.io/QuAIR-platform/
+repo_url: https://github.com/LeiZhang-116-4/QuAIR-platform
+nav:
+  - Home: index.md
+  - Avocado:
+      - About: avocado/index.md
+      - Tutorial: avocado/tutorial.md
+      - API: avocado/api/index.html
+  - Research: research.md
+
+plugins:
+  - search
+
+theme:
+  name: material
+  features:
+    - navigation.top
+    - navigation.instant
+    - header.autohide
+    - navigation.tabs
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+  logo: avocado-icon.svg
+  icon:
+    repo: fontawesome/brands/github
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: teal
+      primary: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@squidfunk
+
+copyright: Copyright &copy; 2023 - 2024 QuAIR

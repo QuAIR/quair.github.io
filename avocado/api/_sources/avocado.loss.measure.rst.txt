@@ -1,6 +1,0 @@
-avocado.loss.measure
-====================
-
-.. automodule:: avocado.loss.measure
-	:members:
-

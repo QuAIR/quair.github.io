@@ -1,6 +1,0 @@
-avocado.operator.channel.common
-===============================
-
-.. automodule:: avocado.operator.channel.common
-	:members:
-

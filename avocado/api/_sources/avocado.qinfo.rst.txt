@@ -1,6 +1,0 @@
-avocado.qinfo
-=============
-
-.. automodule:: avocado.qinfo
-	:members:
-

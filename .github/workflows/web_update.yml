@@ -1,0 +1,62 @@
+name: API Auto Update  # The name of the workflow indicates its purpose to automatically update the API documentation.
+
+on:  # Defines the events that trigger the workflow.
+  push:
+    branches: ["dev"]  # This workflow is triggered by pushes to the 'dev' branch.
+  workflow_dispatch:  # This allows the workflow to be manually triggered.
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:  # Defines a job called 'deploy'.
+    runs-on: ubuntu-latest  # Specifies the virtual environment where the job will run.
+
+    steps:  # Defines a list of steps to be executed.
+      # - name: Checkout  # Step to checkout the repository's code.
+      #   uses: actions/checkout@v4  # Uses the actions/checkout action to access the repository code.
+
+      - name: Cache pip packages  # Step to cache pip packages to speed up the build process.
+        uses: actions/cache@v4
+        with:
+          path: ~\AppData\Local\pip\Cache  # Specifies the cache path.
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}  # The key for the cache.
+          restore-keys: |  # List of keys to use to restore the cache if there is no exact match found.
+            ${{ runner.os }}-pip-
+
+      - name: Setup Pages  # Step to configure GitHub Pages.
+        uses: actions/configure-pages@v4
+
+      - name: Install dependencies  # Step to install dependencies.
+        run: |
+          # pip install -e .
+          # pip install docutils==0.18.1 sphinx-rtd-theme==1.3.0 Sphinx==6.1.3 sphinx_material
+          pip install mkdocs mkdocs-material
+
+      - name: Build MkDocs Site  # Step to build the MkDocs site.
+        run: |
+          mkdocs build -f mkdocs.yml
+      
+      # - name: Generate Sphinx Documentation for API Documentation  # Step to generate Sphinx documentation.
+      #   run: |
+      #     python docs/avocado/update_avocado_rst.py
+      #     sphinx-build -b html docs/avocado/sphinx_src docs/site/avocado/api
+
+      - name: Upload artifact  # Step to upload the built site as an artifact.
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/site
+
+      - name: Deploy to GitHub Pages  # Step to deploy to GitHub Pages.
+        id: deployment
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_branch: gh-pages  # Specifies the branch to deploy to.
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Authenticates using a GitHub Token.
+          publish_dir: ./docs/site  # Specifies the directory to deploy.
