@@ -1,0 +1,6 @@
+
+.. automodule:: src
+
+.. autofunction:: MaxLogNeg
+
+.. autofunction:: Pauli2Stab
