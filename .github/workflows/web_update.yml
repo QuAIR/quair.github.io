@@ -51,7 +51,7 @@ jobs:
       - name: Upload artifact  # Step to upload the built site as an artifact.
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/site
+          path: site
 
       - name: Deploy to GitHub Pages  # Step to deploy to GitHub Pages.
         id: deployment
@@ -59,4 +59,4 @@ jobs:
         with:
           publish_branch: gh-pages  # Specifies the branch to deploy to.
           github_token: ${{ secrets.GITHUB_TOKEN }}  # Authenticates using a GitHub Token.
-          publish_dir: ./docs/site  # Specifies the directory to deploy.
+          publish_dir: ./site  # Specifies the directory to deploy.
