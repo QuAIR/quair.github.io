@@ -9,7 +9,9 @@ nav:
       - About: avocado/index.md
       - Tutorial: avocado/tutorial.md
       - API: https://leizhang-116-4.github.io/QuAIR-platform/
-  - MPQQ: MPQQ/about.md
+  - MPQQ: 
+      - About: MPQQ/about.md
+      - API: MPQQ/API_demo.html
   - QuICK: QuICK/about.md
   - Research: research.md
 
