@@ -1,6 +1,6 @@
-# RTM
+# MPQQ
 
-Quantum Resource Theory of Matlab (RTM) is a MATLAB toolbox for exploring quantum resource theory.
+MPQQ: Matlab Package for Quantum Information Processing and Quantum Resource Theory is a MATLAB toolbox for exploring quantum resource theory.
 
 
 ## Features
