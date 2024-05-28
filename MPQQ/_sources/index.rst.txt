@@ -1,3 +1,7 @@
+Welcome to MPQQ's documentation!
+====================================
+
+`Go to QuAIR-PLATFORM Home <https://quair.github.io/>`_
 
 .. automodule:: src
 
