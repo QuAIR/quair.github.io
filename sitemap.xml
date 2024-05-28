@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://leizhang-116-4.github.io/QuAIR-platform/</loc>
+         <loc>https://quair.github.io/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://leizhang-116-4.github.io/QuAIR-platform/about/</loc>
+         <loc>https://quair.github.io/about/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://leizhang-116-4.github.io/QuAIR-platform/api/</loc>
+         <loc>https://quair.github.io/api/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://leizhang-116-4.github.io/QuAIR-platform/installation/</loc>
+         <loc>https://quair.github.io/installation/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://leizhang-116-4.github.io/QuAIR-platform/research/</loc>
+         <loc>https://quair.github.io/research/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://leizhang-116-4.github.io/QuAIR-platform/avocado/</loc>
+         <loc>https://quair.github.io/QuICK/about/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://leizhang-116-4.github.io/QuAIR-platform/avocado/tutorial/</loc>
+         <loc>https://quair.github.io/RTM/about/</loc>
+         <lastmod>2024-05-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://quair.github.io/avocado/</loc>
+         <lastmod>2024-05-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://quair.github.io/avocado/tutorial/</loc>
          <lastmod>2024-05-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
