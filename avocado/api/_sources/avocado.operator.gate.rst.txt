@@ -1,0 +1,14 @@
+avocado.operator.gate
+=====================
+
+.. automodule:: avocado.operator.gate
+	:members:
+
+.. toctree::
+
+    avocado.operator.gate.custom
+    avocado.operator.gate.functional
+    avocado.operator.gate.base
+    avocado.operator.gate.multi_qubit_gate
+    avocado.operator.gate.encoding
+    avocado.operator.gate.single_qubit_gate

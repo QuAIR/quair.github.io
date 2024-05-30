@@ -1,0 +1,6 @@
+avocado.core.backend.unitary_matrix
+===================================
+
+.. automodule:: avocado.core.backend.unitary_matrix
+	:members:
+

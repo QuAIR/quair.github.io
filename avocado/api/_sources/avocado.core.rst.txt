@@ -1,0 +1,13 @@
+avocado.core
+============
+
+.. automodule:: avocado.core
+	:members:
+
+.. toctree::
+
+    avocado.core.hamiltonian
+    avocado.core.visual
+    avocado.core.base
+    avocado.core.state
+    avocado.core.backend

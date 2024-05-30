@@ -1,0 +1,6 @@
+avocado.database.matrix
+=======================
+
+.. automodule:: avocado.database.matrix
+	:members:
+
