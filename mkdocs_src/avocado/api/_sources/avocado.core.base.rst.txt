@@ -1,0 +1,6 @@
+avocado.core.base
+=================
+
+.. automodule:: avocado.core.base
+	:members:
+

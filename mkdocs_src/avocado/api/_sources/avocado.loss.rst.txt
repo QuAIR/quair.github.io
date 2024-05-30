@@ -1,0 +1,10 @@
+avocado.loss
+============
+
+.. automodule:: avocado.loss
+	:members:
+
+.. toctree::
+
+    avocado.loss.distance
+    avocado.loss.measure

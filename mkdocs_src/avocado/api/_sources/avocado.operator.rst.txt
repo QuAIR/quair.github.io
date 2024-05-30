@@ -1,0 +1,11 @@
+avocado.operator
+================
+
+.. automodule:: avocado.operator
+	:members:
+
+.. toctree::
+
+    avocado.operator.special
+    avocado.operator.channel
+    avocado.operator.gate

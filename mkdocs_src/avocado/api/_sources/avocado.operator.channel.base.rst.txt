@@ -1,0 +1,6 @@
+avocado.operator.channel.base
+=============================
+
+.. automodule:: avocado.operator.channel.base
+	:members:
+

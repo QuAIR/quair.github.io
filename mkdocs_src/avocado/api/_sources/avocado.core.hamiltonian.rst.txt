@@ -1,0 +1,6 @@
+avocado.core.hamiltonian
+========================
+
+.. automodule:: avocado.core.hamiltonian
+	:members:
+

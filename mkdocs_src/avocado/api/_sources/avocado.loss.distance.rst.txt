@@ -1,0 +1,6 @@
+avocado.loss.distance
+=====================
+
+.. automodule:: avocado.loss.distance
+	:members:
+
