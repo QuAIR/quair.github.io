@@ -4,29 +4,33 @@ hide:
 #   - toc
 
 ---
-# Avocado
 
-QuAIR 团队的量子计算研究平台（建设中）
+# QuAIR
 
-## 结构介绍
+Quantum AI Research (QuAIR) Lab, led by Prof. Xin Wang at HKUST (Guangzhou), is dedicated to pushing the fundamental boundaries of quantum information processing and driving technological advancements for quantum computing, guided by AI for Quantum and Quantum for AI.
 
-- `avocado`: 主模块，含以下子模块/接口
+# QuAIR-Platform (beta)
 
-  - `ansatz`: 电路模板设计
-  - `core`: 核心逻辑计算
-  - `database`: 量子数据库
-  - `operator`: 量子操作集
-    - `channel`: 量子信道集
-    - `gate`: 量子门集
-  - `circuit`: 量子电路接口
-  - `qinfo`: 量子算法/信息工具集
-  
-- `docs`: API 生产目录
-- `tests`: 单元测试集
+## Avocado
+**Avocado** is a quantum research platform designed to empower researchers in the QuAIR team, by providing a robust and efficient suite of tools tailored for quantum computing and quantum information research.
 
-## 功能
+## MPQQ
+**MPQQ**: Matlab Package for Quantum Information Processing and Quantum Resource Theory is a MATLAB toolbox for exploring quantum resource theory.
 
-- QNN 算法模拟
-- 量子电路模拟 & 展示
-- 量子信道模拟
-- 量子算法/信息工具集
+### Features
+- **Resource Measure**: Functions to calculate the amount of resource for the given state/channel within entanglement, coherence, and magic theories. 
+- **Channel Simulation**: Capabilities to simulate quantum channels within different resource theories.
+- **Error Mitigation**: Tools to compute the optimal probabilistic error cancellation protocols for a given noisy channel.
+
+## QuICK
+**QuICK**: Quantum Integrity and Correction Kit is a quantum error correction package in the QuAIR team (under construction). The tools are for code construction and decoding.
+
+### Features
+- **QuICK**: contain error correction codes include:
+  - **code**: classical and quantum code construction
+    - **ClassicalCode**: binary classical linear block code
+    - **Stabilizer**: quantum stabilizer code
+    - **CSSCode**: quantum Calderbank-Shor-Steane(CSS) code
+    - **HGP**: quantum hypergraph product code
+    - **LP**: quantum lifted product code
+  - **utils**: binary linear algebra and code utilities
