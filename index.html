@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#avocado" class="md-skip">
+        <a href="#quair" class="md-skip">
           Skip to content
         </a>
       
@@ -375,17 +375,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Home
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="." class="md-nav__link md-nav__link--active">
         
   
@@ -395,43 +384,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      结构介绍
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      功能
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -694,32 +646,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      结构介绍
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      功能
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -736,38 +662,33 @@
   
 
 
-<h1 id="avocado">Avocado</h1>
-<p>QuAIR 团队的量子计算研究平台（建设中）</p>
-<h2 id="_1">结构介绍</h2>
+<h1 id="quair">QuAIR</h1>
+<p>Quantum AI Research (QuAIR) Lab, led by Prof. Xin Wang at HKUST (Guangzhou), is dedicated to pushing the fundamental boundaries of quantum information processing and driving technological advancements for quantum computing, guided by AI for Quantum and Quantum for AI.</p>
+<h1 id="quair-platform-beta">QuAIR-Platform (beta)</h1>
+<h2 id="avocado">Avocado</h2>
+<p><strong>Avocado</strong> is a quantum research platform designed to empower researchers in the QuAIR team, by providing a robust and efficient suite of tools tailored for quantum computing and quantum information research.</p>
+<h2 id="mpqq">MPQQ</h2>
+<p><strong>MPQQ</strong>: Matlab Package for Quantum Information Processing and Quantum Resource Theory is a MATLAB toolbox for exploring quantum resource theory.</p>
+<h3 id="features">Features</h3>
 <ul>
-<li>
-<p><code>avocado</code>: 主模块，含以下子模块/接口</p>
-</li>
-<li>
-<p><code>ansatz</code>: 电路模板设计</p>
-</li>
-<li><code>core</code>: 核心逻辑计算</li>
-<li><code>database</code>: 量子数据库</li>
-<li><code>operator</code>: 量子操作集<ul>
-<li><code>channel</code>: 量子信道集</li>
-<li><code>gate</code>: 量子门集</li>
+<li><strong>Resource Measure</strong>: Functions to calculate the amount of resource for the given state/channel within entanglement, coherence, and magic theories. </li>
+<li><strong>Channel Simulation</strong>: Capabilities to simulate quantum channels within different resource theories.</li>
+<li><strong>Error Mitigation</strong>: Tools to compute the optimal probabilistic error cancellation protocols for a given noisy channel.</li>
+</ul>
+<h2 id="quick">QuICK</h2>
+<p><strong>QuICK</strong>: Quantum Integrity and Correction Kit is a quantum error correction package in the QuAIR team (under construction). The tools are for code construction and decoding.</p>
+<h3 id="features_1">Features</h3>
+<ul>
+<li><strong>QuICK</strong>: contain error correction codes include:</li>
+<li><strong>code</strong>: classical and quantum code construction<ul>
+<li><strong>ClassicalCode</strong>: binary classical linear block code</li>
+<li><strong>Stabilizer</strong>: quantum stabilizer code</li>
+<li><strong>CSSCode</strong>: quantum Calderbank-Shor-Steane(CSS) code</li>
+<li><strong>HGP</strong>: quantum hypergraph product code</li>
+<li><strong>LP</strong>: quantum lifted product code</li>
 </ul>
 </li>
-<li><code>circuit</code>: 量子电路接口</li>
-<li>
-<p><code>qinfo</code>: 量子算法/信息工具集</p>
-</li>
-<li>
-<p><code>docs</code>: API 生产目录</p>
-</li>
-<li><code>tests</code>: 单元测试集</li>
-</ul>
-<h2 id="_2">功能</h2>
-<ul>
-<li>QNN 算法模拟</li>
-<li>量子电路模拟 &amp; 展示</li>
-<li>量子信道模拟</li>
-<li>量子算法/信息工具集</li>
+<li><strong>utils</strong>: binary linear algebra and code utilities</li>
 </ul>
 
 
