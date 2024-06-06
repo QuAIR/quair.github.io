@@ -11,7 +11,7 @@ nav:
       - API: avocado/api/index.html
   - MPQQ: 
       - About: MPQQ/about.md
-      - API: MPQQ/API_demo.html
+      - API: MPQQ/api/index.html
   - QuICK: QuICK/about.md
   - Research: research.md
 
