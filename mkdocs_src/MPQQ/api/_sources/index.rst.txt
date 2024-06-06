@@ -1,0 +1,16 @@
+Welcome to RTM's documentation!
+===============================
+
+`Go to QuAIR Home <https://quair.github.io/>`_
+
+.. automodule:: .
+
+.. toctree::
+   :maxdepth: 1
+
+   static_coherence
+   entanglement_theory
+   error_mitigation
+   Utils
+   Magic
+   IDC
