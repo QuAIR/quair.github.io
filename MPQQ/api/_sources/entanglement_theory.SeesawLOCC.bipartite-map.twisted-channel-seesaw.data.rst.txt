@@ -1,0 +1,10 @@
+entanglement_theory.SeesawLOCC.bipartite-map.twisted-channel-seesaw.data
+========================================================================
+
+.. automodule:: entanglement_theory.SeesawLOCC.bipartite-map.twisted-channel-seesaw.data
+
+.. toctree::
+   :maxdepth: 1
+
+
+.. autofunction:: entanglement_theory.SeesawLOCC.bipartite-map.twisted-channel-seesaw.data.load_cnot
