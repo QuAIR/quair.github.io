@@ -1,0 +1,14 @@
+RTM
+===
+
+.. automodule:: .
+
+.. toctree::
+   :maxdepth: 1
+
+   static_coherence
+   Magic
+   IDC
+   entanglement_theory
+   Utils
+   error_mitigation

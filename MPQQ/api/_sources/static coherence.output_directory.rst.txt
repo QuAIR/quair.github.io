@@ -1,0 +1,8 @@
+static coherence.output_directory
+=================================
+
+.. automodule:: static coherence.output_directory
+
+.. toctree::
+   :maxdepth: 1
+
