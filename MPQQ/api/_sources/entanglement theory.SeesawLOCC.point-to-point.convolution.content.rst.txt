@@ -1,8 +1,0 @@
-entanglement theory.SeesawLOCC.point-to-point.convolution.content
-=================================================================
-
-.. automodule:: entanglement theory.SeesawLOCC.point-to-point.convolution.content
-
-.. toctree::
-   :maxdepth: 1
-
