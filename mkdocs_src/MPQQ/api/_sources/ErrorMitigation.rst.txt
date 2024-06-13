@@ -1,0 +1,18 @@
+ErrorMitigation
+===============
+
+.. automodule:: ErrorMitigation
+
+.. toctree::
+   :maxdepth: 1
+
+
+.. autofunction:: ErrorMitigation.ProbErrorCancel
+
+.. autofunction:: ErrorMitigation.ProbErrorCancelO
+
+.. autofunction:: ErrorMitigation.ProbErrorCancelOS
+
+.. autofunction:: ErrorMitigation.SwapGenerator
+
+.. autofunction:: ErrorMitigation.testing

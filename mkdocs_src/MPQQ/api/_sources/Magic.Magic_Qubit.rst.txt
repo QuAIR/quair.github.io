@@ -15,6 +15,4 @@ Magic.Magic_Qubit
 
 .. autofunction:: Magic.Magic_Qubit.RoM_Chan
 
-.. autofunction:: Magic.Magic_Qubit.Test_RobMag
-
 .. autofunction:: Magic.Magic_Qubit.Trans_K

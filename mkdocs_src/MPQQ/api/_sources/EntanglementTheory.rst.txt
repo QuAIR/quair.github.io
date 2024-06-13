@@ -1,0 +1,18 @@
+EntanglementTheory
+==================
+
+.. automodule:: EntanglementTheory
+
+.. toctree::
+   :maxdepth: 1
+
+   EntanglementTheory.DynamicEntTheory
+   EntanglementTheory.Fawzi
+   EntanglementTheory.SeesawLOCC
+   EntanglementTheory.StaticEntTheory
+
+.. autofunction:: EntanglementTheory.ExampleFunc
+
+.. autofunction:: EntanglementTheory.GammaPPT
+
+.. autofunction:: EntanglementTheory.VirtualRecovery

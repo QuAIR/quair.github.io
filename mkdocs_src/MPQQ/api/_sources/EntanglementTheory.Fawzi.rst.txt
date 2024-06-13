@@ -1,0 +1,18 @@
+EntanglementTheory.Fawzi
+========================
+
+.. automodule:: EntanglementTheory.Fawzi
+
+.. toctree::
+   :maxdepth: 1
+
+
+.. autofunction:: EntanglementTheory.Fawzi.CQClaCapacity
+
+.. autofunction:: EntanglementTheory.Fawzi.EAClaCapacity
+
+.. autofunction:: EntanglementTheory.Fawzi.QuaDegCapacity
+
+.. autofunction:: EntanglementTheory.Fawzi.RelEntropyEnt
+
+.. autofunction:: EntanglementTheory.Fawzi.RelEntropyRecovery
