@@ -3,16 +3,17 @@
 Welcome to Avocado's documentation!
 ====================================
 
-|avocado| `Go to QuAIR-PLATFORM Home <https://quair.github.io/>`_
+|avocado| `Go to Avocado Home <https://quair.github.io/>`_
 
 .. toctree::
     :maxdepth: 1
     :caption: API Documentation
 
-    avocado.circuit
-    avocado.operator
-    avocado.loss
-    avocado.qinfo
     avocado.ansatz
-    avocado.database
+    avocado.circuit
     avocado.core
+    avocado.database
+    avocado.loss
+    avocado.operator
+    avocado.qinfo
+    avocado.qpp

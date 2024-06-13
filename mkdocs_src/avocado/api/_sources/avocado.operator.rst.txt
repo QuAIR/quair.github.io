@@ -6,6 +6,6 @@ avocado.operator
 
 .. toctree::
 
-    avocado.operator.special
     avocado.operator.channel
     avocado.operator.gate
+    avocado.operator.special

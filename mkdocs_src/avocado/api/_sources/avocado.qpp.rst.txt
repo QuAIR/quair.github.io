@@ -1,0 +1,8 @@
+avocado.qpp
+===========
+
+.. automodule:: avocado.qpp
+	:members:
+
+.. toctree::
+

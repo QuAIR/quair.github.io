@@ -1,0 +1,8 @@
+avocado.ansatz.test_u_depo_pqc_comb_data
+========================================
+
+.. automodule:: avocado.ansatz.test_u_depo_pqc_comb_data
+	:members:
+
+.. toctree::
+

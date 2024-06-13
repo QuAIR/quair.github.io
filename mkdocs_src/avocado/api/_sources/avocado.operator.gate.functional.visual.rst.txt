@@ -1,6 +1,0 @@
-avocado.operator.gate.functional.visual
-=======================================
-
-.. automodule:: avocado.operator.gate.functional.visual
-	:members:
-
