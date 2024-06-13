@@ -1,0 +1,20 @@
+Magic.MagicQubit
+================
+
+.. automodule:: Magic.MagicQubit
+
+.. toctree::
+   :maxdepth: 1
+
+
+.. autofunction:: Magic.MagicQubit.Pauli2Stab
+
+.. autofunction:: Magic.MagicQubit.RandomCSPO
+
+.. autofunction:: Magic.MagicQubit.RobMag
+
+.. autofunction:: Magic.MagicQubit.RoM_Chan
+
+.. autofunction:: Magic.MagicQubit.Test_RobMag
+
+.. autofunction:: Magic.MagicQubit.Trans_K

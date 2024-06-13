@@ -1,8 +1,0 @@
-EntanglementTheory.SeesawLOCC.bipartite-map.twisted-channel-seesaw.Output
-=========================================================================
-
-.. automodule:: EntanglementTheory.SeesawLOCC.bipartite-map.twisted-channel-seesaw.Output
-
-.. toctree::
-   :maxdepth: 1
-
