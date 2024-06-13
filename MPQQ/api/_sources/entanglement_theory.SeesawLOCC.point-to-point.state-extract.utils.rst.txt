@@ -1,8 +1,0 @@
-entanglement_theory.SeesawLOCC.point-to-point.state-extract.utils
-=================================================================
-
-.. automodule:: entanglement_theory.SeesawLOCC.point-to-point.state-extract.utils
-
-.. toctree::
-   :maxdepth: 1
-

@@ -8,9 +8,9 @@ Welcome to RTM's documentation!
 .. toctree::
    :maxdepth: 1
 
-   error_mitigation
-   entanglement_theory
    IDC
-   static_coherence
-   Utils
    Magic
+   Utils
+   ErrorMitigation
+   EntanglementTheory
+   StaticCoherence

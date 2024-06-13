@@ -1,0 +1,12 @@
+EntanglementTheory.SeesawLOCC.point-to-point.info_recovering
+============================================================
+
+.. automodule:: EntanglementTheory.SeesawLOCC.point-to-point.info_recovering
+
+.. toctree::
+   :maxdepth: 1
+
+
+.. autofunction:: EntanglementTheory.SeesawLOCC.point-to-point.info_recovering.plot_advantage
+
+.. autofunction:: EntanglementTheory.SeesawLOCC.point-to-point.info_recovering.TC_advantage

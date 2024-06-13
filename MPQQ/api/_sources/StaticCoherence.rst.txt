@@ -1,0 +1,24 @@
+StaticCoherence
+===============
+
+.. automodule:: StaticCoherence
+
+.. toctree::
+   :maxdepth: 1
+
+
+.. autofunction:: StaticCoherence.FlagPoleState
+
+.. autofunction:: StaticCoherence.KetBra
+
+.. autofunction:: StaticCoherence.RobustnessCoherentChannel
+
+.. autofunction:: StaticCoherence.RobustnessCoherentState
+
+.. autofunction:: StaticCoherence.SimulateCoherentChannel
+
+.. autofunction:: StaticCoherence.SimulateCoherentChannelProb
+
+.. autofunction:: StaticCoherence.testing
+
+.. autofunction:: StaticCoherence.UnitaryChannel

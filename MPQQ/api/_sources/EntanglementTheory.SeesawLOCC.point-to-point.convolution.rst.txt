@@ -1,0 +1,12 @@
+EntanglementTheory.SeesawLOCC.point-to-point.convolution
+========================================================
+
+.. automodule:: EntanglementTheory.SeesawLOCC.point-to-point.convolution
+
+.. toctree::
+   :maxdepth: 1
+
+
+.. autofunction:: EntanglementTheory.SeesawLOCC.point-to-point.convolution.CPTNDecompose
+
+.. autofunction:: EntanglementTheory.SeesawLOCC.point-to-point.convolution.TCDecompose
