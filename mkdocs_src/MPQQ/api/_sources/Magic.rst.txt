@@ -6,5 +6,5 @@ Magic
 .. toctree::
    :maxdepth: 1
 
-   Magic.Magic_Qubit
-   Magic.Magic_Qudit
+   Magic.MagicQubit
+   Magic.MagicQudit
