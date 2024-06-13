@@ -1,26 +1,34 @@
 # QResLab
 
-Quantum Resource Theory of Matlab (QResLab) is a MATLAB toolbox for exploring quantum resource theory.
+Quantum Resource Theory Matlab Package (QResLab) is a MATLAB toolbox for exploring quantum resource theory.
 
 
 ## Features
 - **Resource Measure**: Functions to calculate the amount of resource for the given state/channel within entanglement, coherence and magic theories.
- -- Tempered Logarithmic Negativity (Ent)\
- -- Rains Bound (Ent)\
- -- MaxRainsEntropy (Ent)\
- -- Logarithmic Negativity (Ent)\
- -- EPPT (Ent)\
- -- Eeta (Ent)\
- -- Robustness Coherence (Coh)\
- -- Magic Mana (Magic)
+ -- *Entanglement Measure*: Tempered Logarithmic Negativity $E_{\tau}$, Rains Bound $R$, MaxRainsEntropy $R_{\max}$, Logarithmic Negativity $E_{N}$, $E_{\mathrm{PPT}}$, $E_\eta$\
+ -- *Coherence Measure*: Robustness of Coherence\
+ -- *Magic Measure*: Robustness of Magic (qubit), Magic Mana (qudit), max/min Thuama (qudit)
 
-- **Channel Simulation**: Capabilities to simulate quantum channels within different resource theories.
- -- 
+- **Channel Simulation**:  Simulating non-free operations via resource states.
 
-- **Error Mitigation**: Tools to compute the optimal probablistic error cancellation protocols for a given noisy channel.
- -- Without Observable\
- -- Given Observable\
- -- Observable Shift
+- **Error Mitigation**:  Tools to compute the protocol to mitigate quantum errors with minimal sampling overhead. \
+ -- Probabilistic error cancelation \
+ -- Observable dependent probabilistic error cancellation \
+ -- Observable dependent deterministic error cancelation
+
+- **Indefinite Causal Order**: 
+ -- Quantum Switch (both kraus and choi), Apply Quantum Switch
+ -- Link Product
+
+- **Seesaw Algorithms**: Algorithms for providing sub-optimal solutions for non-linear optimization problems. \
+ -- CHSH game \
+ -- LOCC protocol \
+ -- Circuit Knitting
+
+- **Extra Functions - Quantum Information Processing**: \
+ -- Conditional quantum mutual information \
+ -- Virtual Markovian State \
+ -- Quantum Capacity (degradable)
 
 ## Requirements
 1. QETLAB == 0.9
@@ -48,7 +56,9 @@ disp(robustness);
 ```
 
 
+## More functions are coming.
+
 
 ## Contributing
 
-Contributions to expand and improve this package are welcome. Please fork the repository, make your changes, and submit a pull request.
+Contributions to expand and improve this package are welcome.
