@@ -6,8 +6,8 @@ avocado.core
 
 .. toctree::
 
-    avocado.core.hamiltonian
-    avocado.core.visual
-    avocado.core.base
-    avocado.core.state
     avocado.core.backend
+    avocado.core.base
+    avocado.core.hamiltonian
+    avocado.core.state
+    avocado.core.visual

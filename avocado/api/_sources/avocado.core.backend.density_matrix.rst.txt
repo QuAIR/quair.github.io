@@ -1,6 +1,0 @@
-avocado.core.backend.density_matrix
-===================================
-
-.. automodule:: avocado.core.backend.density_matrix
-	:members:
-

@@ -6,8 +6,9 @@ avocado.database
 
 .. toctree::
 
-    avocado.database.matrix
     avocado.database.hamiltonian
-    avocado.database.representation
+    avocado.database.matrix
     avocado.database.random
+    avocado.database.representation
+    avocado.database.set
     avocado.database.state

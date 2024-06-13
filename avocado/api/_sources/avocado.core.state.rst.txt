@@ -4,3 +4,7 @@ avocado.core.state
 .. automodule:: avocado.core.state
 	:members:
 
+.. toctree::
+
+    avocado.core.state.backend
+    avocado.core.state.state

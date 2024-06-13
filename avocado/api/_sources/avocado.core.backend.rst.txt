@@ -6,6 +6,3 @@ avocado.core.backend
 
 .. toctree::
 
-    avocado.core.backend.unitary_matrix
-    avocado.core.backend.state_vector
-    avocado.core.backend.density_matrix
