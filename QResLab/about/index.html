@@ -619,6 +619,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#more-functions-are-coming" class="md-nav__link">
+    <span class="md-ellipsis">
+      More functions are coming.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#contributing" class="md-nav__link">
     <span class="md-ellipsis">
       Contributing
@@ -767,6 +776,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#more-functions-are-coming" class="md-nav__link">
+    <span class="md-ellipsis">
+      More functions are coming.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#contributing" class="md-nav__link">
     <span class="md-ellipsis">
       Contributing
@@ -794,29 +812,40 @@
 
 
 <h1 id="qreslab">QResLab</h1>
-<p>Quantum Resource Theory of Matlab (QResLab) is a MATLAB toolbox for exploring quantum resource theory.</p>
+<p>Quantum Resource Theory Matlab Package (QResLab) is a MATLAB toolbox for exploring quantum resource theory.</p>
 <h2 id="features">Features</h2>
 <ul>
 <li>
 <p><strong>Resource Measure</strong>: Functions to calculate the amount of resource for the given state/channel within entanglement, coherence and magic theories.
- -- Tempered Logarithmic Negativity (Ent)\
- -- Rains Bound (Ent)\
- -- MaxRainsEntropy (Ent)\
- -- Logarithmic Negativity (Ent)\
- -- EPPT (Ent)\
- -- Eeta (Ent)\
- -- Robustness Coherence (Coh)\
- -- Magic Mana (Magic)</p>
+ -- <em>Entanglement Measure</em>: Tempered Logarithmic Negativity $E_{\tau}$, Rains Bound $R$, MaxRainsEntropy $R_{\max}$, Logarithmic Negativity $E_{N}$, $E_{\mathrm{PPT}}$, $E_\eta$\
+ -- <em>Coherence Measure</em>: Robustness of Coherence\
+ -- <em>Magic Measure</em>: Robustness of Magic (qubit), Magic Mana (qudit), max/min Thuama (qudit)</p>
 </li>
 <li>
-<p><strong>Channel Simulation</strong>: Capabilities to simulate quantum channels within different resource theories.
- -- </p>
+<p><strong>Channel Simulation</strong>:  Simulating non-free operations via resource states.</p>
 </li>
 <li>
-<p><strong>Error Mitigation</strong>: Tools to compute the optimal probablistic error cancellation protocols for a given noisy channel.
- -- Without Observable\
- -- Given Observable\
- -- Observable Shift</p>
+<p><strong>Error Mitigation</strong>:  Tools to compute the protocol to mitigate quantum errors with minimal sampling overhead. \
+ -- Probabilistic error cancelation \
+ -- Observable dependent probabilistic error cancellation \
+ -- Observable dependent deterministic error cancelation</p>
+</li>
+<li>
+<p><strong>Indefinite Causal Order</strong>: 
+ -- Quantum Switch (both kraus and choi), Apply Quantum Switch
+ -- Link Product</p>
+</li>
+<li>
+<p><strong>Seesaw Algorithms</strong>: Algorithms for providing sub-optimal solutions for non-linear optimization problems. \
+ -- CHSH game \
+ -- LOCC protocol \
+ -- Circuit Knitting</p>
+</li>
+<li>
+<p><strong>Extra Functions - Quantum Information Processing</strong>: \
+ -- Conditional quantum mutual information \
+ -- Virtual Markovian State \
+ -- Quantum Capacity (degradable)</p>
 </li>
 </ul>
 <h2 id="requirements">Requirements</h2>
@@ -839,8 +868,9 @@ robustness = EntanglementRobustness(rho);
 disp('Robustness of Entanglement:');
 disp(robustness);
 </code></pre>
+<h2 id="more-functions-are-coming">More functions are coming.</h2>
 <h2 id="contributing">Contributing</h2>
-<p>Contributions to expand and improve this package are welcome. Please fork the repository, make your changes, and submit a pull request.</p>
+<p>Contributions to expand and improve this package are welcome.</p>
 
 
 
