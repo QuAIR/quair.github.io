@@ -1,0 +1,16 @@
+Welcome to QResLab's documentation!
+===================================
+
+`Go to QuAIR Home <https://quair.github.io/>`_
+
+.. automodule:: .
+
+.. toctree::
+   :maxdepth: 1
+
+   ErrorMitigation
+   Utils
+   IDC
+   Magic
+   Entanglement
+   Coherence

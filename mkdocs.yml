@@ -9,9 +9,9 @@ nav:
       - About: avocado/index.md
       - Tutorial: avocado/tutorial.md
       - API: avocado/api/index.html
-  - MPQQ: 
-      - About: MPQQ/about.md
-      - API: MPQQ/api/index.html
+  - QResLab: 
+      - About: QResLab/about.md
+      - API: QResLab/api/index.html
   - QuICK: QuICK/about.md
   - Research: research.md
 
