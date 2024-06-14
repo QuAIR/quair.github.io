@@ -1,0 +1,13 @@
+seesaw.SeesawLOCC.bipartite-map.twisted-channel-seesaw
+======================================================
+
+.. automodule:: seesaw.SeesawLOCC.bipartite-map.twisted-channel-seesaw
+
+.. toctree::
+   :maxdepth: 1
+
+   seesaw.SeesawLOCC.bipartite-map.twisted-channel-seesaw.data
+
+.. autofunction:: seesaw.SeesawLOCC.bipartite-map.twisted-channel-seesaw.SeesawDecoupling
+
+.. autofunction:: seesaw.SeesawLOCC.bipartite-map.twisted-channel-seesaw.SeesawMinimizing

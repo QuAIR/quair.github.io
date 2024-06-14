@@ -1,0 +1,22 @@
+EntanglementTheory.StaticEntTheory
+==================================
+
+.. automodule:: EntanglementTheory.StaticEntTheory
+
+.. toctree::
+   :maxdepth: 1
+
+
+.. autofunction:: EntanglementTheory.StaticEntTheory.Eeta
+
+.. autofunction:: EntanglementTheory.StaticEntTheory.LogFidBiNeg
+
+.. autofunction:: EntanglementTheory.StaticEntTheory.LogFidPPT
+
+.. autofunction:: EntanglementTheory.StaticEntTheory.LogNeg
+
+.. autofunction:: EntanglementTheory.StaticEntTheory.MaxRains
+
+.. autofunction:: EntanglementTheory.StaticEntTheory.RainsBound
+
+.. autofunction:: EntanglementTheory.StaticEntTheory.TempLogNeg

@@ -1,0 +1,12 @@
+EntanglementTheory.DynamicEntTheory
+===================================
+
+.. automodule:: EntanglementTheory.DynamicEntTheory
+
+.. toctree::
+   :maxdepth: 1
+
+
+.. autofunction:: EntanglementTheory.DynamicEntTheory.MaxLogNeg
+
+.. autofunction:: EntanglementTheory.DynamicEntTheory.MaxRainsInfo

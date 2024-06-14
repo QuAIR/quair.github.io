@@ -1,0 +1,12 @@
+seesaw.SeesawLOCC.point-to-point.convolution
+============================================
+
+.. automodule:: seesaw.SeesawLOCC.point-to-point.convolution
+
+.. toctree::
+   :maxdepth: 1
+
+
+.. autofunction:: seesaw.SeesawLOCC.point-to-point.convolution.CPTNDecompose
+
+.. autofunction:: seesaw.SeesawLOCC.point-to-point.convolution.TCDecompose
