@@ -1,0 +1,18 @@
+EntanglementTheory.QCapacity
+============================
+
+.. automodule:: EntanglementTheory.QCapacity
+
+.. toctree::
+   :maxdepth: 1
+
+
+.. autofunction:: EntanglementTheory.QCapacity.CQClaCapacity
+
+.. autofunction:: EntanglementTheory.QCapacity.EAClaCapacity
+
+.. autofunction:: EntanglementTheory.QCapacity.QuaDegCapacity
+
+.. autofunction:: EntanglementTheory.QCapacity.RelEntropyEnt
+
+.. autofunction:: EntanglementTheory.QCapacity.RelEntropyRecovery

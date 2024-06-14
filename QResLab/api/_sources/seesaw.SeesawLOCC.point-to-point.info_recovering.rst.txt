@@ -1,0 +1,12 @@
+seesaw.SeesawLOCC.point-to-point.info_recovering
+================================================
+
+.. automodule:: seesaw.SeesawLOCC.point-to-point.info_recovering
+
+.. toctree::
+   :maxdepth: 1
+
+
+.. autofunction:: seesaw.SeesawLOCC.point-to-point.info_recovering.plot_advantage
+
+.. autofunction:: seesaw.SeesawLOCC.point-to-point.info_recovering.TC_advantage
