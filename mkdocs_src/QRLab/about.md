@@ -4,37 +4,57 @@ QRLab is a MATLAB toolbox for exploring quantum information processing and quant
 
 
 ## Features
-- **Entanglement Theory**: \
- -- *Static Entanglement Measure*: Tempered Logarithmic Negativity $E_{\tau}$, Rains Bound $R$, MaxRainsEntropy $R_{\max}$, Logarithmic Negativity $E_{N}$, $E_{\mathrm{PPT}}$, $E_\eta$\
- -- *Dynamic Entanglement Measure*: Max Logarithmic Negativity, Max Rains information. \
+- **Entanglement Theory**: 
+
+ -- *Static Entanglement Measure*: Tempered Logarithmic Negativity $E_{
+tau}$, Rains Bound $R$, MaxRainsEntropy $R_{
+max}$, Logarithmic Negativity $E_{N}$, $E_{
+mathrm{PPT}}$, $E_
+eta$
+
+ -- *Dynamic Entanglement Measure*: Max Logarithmic Negativity, Max Rains information. 
+
  -- *Quantum Capacity*
 
-- **Coherence Theory**: \
- -- *Static Coherence Measure*: Robustness of Coherence \
+- **Coherence Theory**: 
+
+ -- *Static Coherence Measure*: Robustness of Coherence 
+
  -- *Channel Simulation*: Simulating non-free operations via resource states.
 
-- **Magic Theory**: \
- -- *Static Magic Measure*: Robustness of Magic (qubit), Magic Mana (qudit), max/min Thuama (qudit) \
+- **Magic Theory**: 
+
+ -- *Static Magic Measure*: Robustness of Magic (qubit), Magic Mana (qudit), max/min Thuama (qudit) 
+
  -- *Representative Magic State Generation*
 
 
-- **Quasi-Theory**: \
- -- Probabilistic error cancelation \
- -- Observable dependent probabilistic error cancellation \
- -- Observable dependent deterministic error cancelation \
- -- Circuit Knitting \
+- **Quasi-Theory**: 
+
+ -- Probabilistic error cancelation 
+
+ -- Observable dependent probabilistic error cancellation 
+
+ -- Observable dependent deterministic error cancelation 
+
+ -- Circuit Knitting 
+
  -- Virtual Recovery
 
 - **Supermap**: 
  -- Quantum Switch (both kraus and choi), Apply Quantum Switch
  -- Link Product
 
-- **Seesaw Algorithms**: Algorithms for providing sub-optimal solutions for non-linear optimization problems. \
- -- CHSH game \
+- **Seesaw Algorithms**: Algorithms for providing sub-optimal solutions for non-linear optimization problems. 
+
+ -- CHSH game 
+
  -- LOCC protocol
 
-- **Extra Functions - Quantum Information Processing**: \
- -- Conditional quantum mutual information \
+- **Extra Functions - Quantum Information Processing**: 
+
+ -- Conditional quantum mutual information 
+
  -- Virtual Markovian State
 
 ## Requirements
