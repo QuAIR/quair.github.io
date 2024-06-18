@@ -8,11 +8,11 @@ Welcome to QResLab's documentation!
 .. toctree::
    :maxdepth: 1
 
+   EntanglementTheory
+   Utils
+   IDC
+   Coherence
+   Magic
    ErrorMitigation
    tutorials
-   Magic
-   IDC
    seesaw
-   Coherence
-   Utils
-   EntanglementTheory
