@@ -7,6 +7,8 @@ EntanglementTheory.DynamicEntTheory
    :maxdepth: 1
 
 
+.. autofunction:: EntanglementTheory.DynamicEntTheory.dynamic_test
+
 .. autofunction:: EntanglementTheory.DynamicEntTheory.MaxLogNeg
 
 .. autofunction:: EntanglementTheory.DynamicEntTheory.MaxRainsInfo

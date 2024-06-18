@@ -7,9 +7,11 @@ EntanglementTheory.QCapacity
    :maxdepth: 1
 
 
+.. autofunction:: EntanglementTheory.QCapacity.capacity_test
+
 .. autofunction:: EntanglementTheory.QCapacity.CQClaCapacity
 
-.. autofunction:: EntanglementTheory.QCapacity.EAClaCapacity
+.. autofunction:: EntanglementTheory.QCapacity.EntAssistedCapacity
 
 .. autofunction:: EntanglementTheory.QCapacity.QuaDegCapacity
 
