@@ -8,5 +8,4 @@ EntanglementTheory
 
    EntanglementTheory.DynamicEntTheory
    EntanglementTheory.QCapacity
-   EntanglementTheory.QuasiTheory
    EntanglementTheory.StaticEntTheory
