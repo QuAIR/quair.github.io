@@ -19,6 +19,4 @@ EntanglementTheory.StaticEntTheory
 
 .. autofunction:: EntanglementTheory.StaticEntTheory.RainsBound
 
-.. autofunction:: EntanglementTheory.StaticEntTheory.static_test
-
 .. autofunction:: EntanglementTheory.StaticEntTheory.TempLogNeg

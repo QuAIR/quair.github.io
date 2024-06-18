@@ -9,8 +9,6 @@ Coherence
 
 .. autofunction:: Coherence.FlagPoleState
 
-.. autofunction:: Coherence.KetBra
-
 .. autofunction:: Coherence.RobustnessCoherentChannel
 
 .. autofunction:: Coherence.RobustnessCoherentState
@@ -18,7 +16,3 @@ Coherence
 .. autofunction:: Coherence.SimulateCoherentChannel
 
 .. autofunction:: Coherence.SimulateCoherentChannelProb
-
-.. autofunction:: Coherence.testing
-
-.. autofunction:: Coherence.UnitaryChannel
