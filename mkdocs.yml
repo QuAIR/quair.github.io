@@ -17,6 +17,7 @@ nav:
 
 plugins:
   - search
+  - mkdocs-mathjax-plugin
 
 theme:
   name: material
