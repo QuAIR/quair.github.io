@@ -6,6 +6,6 @@ seesaw
 .. toctree::
    :maxdepth: 1
 
-   seesaw.SeesawLOCC
+   seesaw.SeesawLO
 
 .. autofunction:: seesaw.CHSHgame
