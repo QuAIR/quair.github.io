@@ -5,6 +5,7 @@ avocado.database
 	:members:
 
 .. toctree::
+    :maxdepth: 2
 
     avocado.database.hamiltonian
     avocado.database.matrix

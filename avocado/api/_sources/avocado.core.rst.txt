@@ -5,8 +5,8 @@ avocado.core
 	:members:
 
 .. toctree::
+    :maxdepth: 2
 
-    avocado.core.backend
     avocado.core.base
     avocado.core.hamiltonian
     avocado.core.state
