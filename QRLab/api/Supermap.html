@@ -222,8 +222,8 @@
   
   
     <li class="md-nav__item">
-      <a href="EntanglementTheory.html" class="md-nav__link">
-        <span class="md-ellipsis">Entanglement<wbr>Theory</span>
+      <a href="Entanglement.html" class="md-nav__link">
+        <span class="md-ellipsis">Entanglement</span>
       </a>
     </li>
   
@@ -885,7 +885,7 @@ the Bin of JB.</p>
 <dt class="sig sig-object highlight mat" id="Supermap.QSwitch">
 <span class="sig-prename descclassname"><span class="pre">Supermap.</span></span><span class="sig-name descname"><span class="pre">QSwitch</span></span><span class="sig-paren">(</span><span class="sig-param-decl"><em class="sig-param"><span class="pre">JN</span></em>, </span><span class="sig-param-decl"><em class="sig-param"><span class="pre">d</span></em></span><span class="sig-paren">)</span><a class="headerlink" href="#Supermap.QSwitch" title="Link to this definition">¶</a></dt>
 <dd><p>Quantum Switch Choi Matrices for Control System Measurement when we
-insert two same quantum channels N, and set the control qubit with <span class="math notranslate nohighlight">\(|+\rangle\)</span>.</p>
+insert two same quantum channels N, and set the control qubit with <span class="math notranslate nohighlight">\(\ket{+}\)</span>.</p>
 <dl class="field-list">
 <dt class="field-odd" id="Supermap.QSwitch-required-packages">Required packages<span class="colon">:</span><a class="headerlink" href="#Supermap.QSwitch-required-packages" title="Permalink to this headline">¶</a></dt>
 <dd class="field-odd"><p><a class="reference external" href="http://www.qetlab.com/Main_Page">QETLAB</a></p>
@@ -898,9 +898,9 @@ Switch.</p></li>
 </ul>
 </dd>
 <dt class="field-odd" id="Supermap.QSwitch-returns">Returns<span class="colon">:</span><a class="headerlink" href="#Supermap.QSwitch-returns" title="Permalink to this headline">¶</a></dt>
-<dd class="field-odd"><p><p>JoutPlus  - Choi matrix for the quantum switch when the control system is measured on <span class="math notranslate nohighlight">\(|+\rangle\)</span>;</p>
+<dd class="field-odd"><p><p>JoutPlus  - Choi matrix for the quantum switch when the control system is measured on <span class="math notranslate nohighlight">\(\ket{+}\)</span>;</p>
 <p>JoutMinus - Choi matrix for the quantum switch when the control system
-is measured on <span class="math notranslate nohighlight">\(|-\rangle\)</span></p>
+is measured on <span class="math notranslate nohighlight">\(\ket{-}\)</span></p>
 </p>
 </dd>
 <dt class="field-even" id="Supermap.QSwitch-return-type">Return type<span class="colon">:</span><a class="headerlink" href="#Supermap.QSwitch-return-type" title="Permalink to this headline">¶</a></dt>
@@ -911,8 +911,8 @@ is measured on <span class="math notranslate nohighlight">\(|-\rangle\)</span></
 </dd>
 <dt class="field-even" id="Supermap.QSwitch-examples">Examples<span class="colon">:</span><a class="headerlink" href="#Supermap.QSwitch-examples" title="Permalink to this headline">¶</a></dt>
 <dd class="field-even"><div class="highlight-matlab notranslate"><div class="highlight"><pre><span></span><code><span class="p">[</span><span class="n">JoutPlus</span><span class="p">,</span><span class="w"> </span><span class="n">JoutMinus</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">QSwitch</span><span class="p">(</span><span class="n">JN</span><span class="p">,</span><span class="w"> </span><span class="n">d</span><span class="p">);</span>
-<span class="c">% Compute Choi matrices for a quantum switch with control system in :math:`|+\rangle`</span>
-<span class="c">% and :math:`|-\rangle` states.</span>
+<span class="c">% Compute Choi matrices for a quantum switch with control system in :math:`\ket{+}`</span>
+<span class="c">% and :math:`\ket{-}` states.</span>
 </code></pre></div>
 </div>
 </dd>
