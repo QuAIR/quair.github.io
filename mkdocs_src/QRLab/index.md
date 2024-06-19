@@ -63,12 +63,24 @@
 
 
 ## Installation
-1. Clone this repository to your local machine.
-2. Add the package to your MATLAB path:
+1. Clone QRLab to your local machine.
+2. Download QETLAB 0.9. You could download it from https://qetlab.com/.
+3. Add QRLab and QETLAB to MATLAB's path​, through command
 ```matlab
-addpath('path_to_package');
+addpath(genpath('...\QETLAB-0.9'));
+addpath(genpath('...\QRlab'));
 ```
-
+4. Download and install CVX 2.1. You could download it from https://cvxr.com/cvx/.
+Install CVX on Windows
+```matlab
+cd yourpath\cvx;​
+cvx_setup;
+```
+Install CVX on Linux or a Mac
+```matlab
+cd ~/MATLAB/cvx;​
+cvx_setup;
+```
 
 ## Getting Started: Use Cases
 

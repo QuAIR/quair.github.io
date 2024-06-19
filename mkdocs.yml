@@ -7,10 +7,9 @@ nav:
   - Home: index.md
   - Avocado:
       - About: avocado/index.md
-      - Tutorial: avocado/tutorial.md
       - API: avocado/api/index.html
   - QRLab: 
-      - About: QRLab/about.md
+      - About: QRLab/index.md
       - API: QRLab/api/index.html
   - QuICK: QuICK/about.md
   - Research: research.md
