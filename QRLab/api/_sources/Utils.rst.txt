@@ -6,15 +6,10 @@ Utils
 .. toctree::
    :maxdepth: 1
 
+   Utils.func_from_others
 
 .. autofunction:: Utils.CQMI
 
-.. autofunction:: Utils.FlagPoleState
-
 .. autofunction:: Utils.KetBra
-
-.. autofunction:: Utils.PauliChan
-
-.. autofunction:: Utils.RandMixedU
 
 .. autofunction:: Utils.UnitaryChannel

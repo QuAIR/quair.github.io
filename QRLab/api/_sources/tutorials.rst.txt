@@ -16,3 +16,5 @@ tutorials
 .. autofunction:: tutorials.SDP_Trace_norm
 
 .. autofunction:: tutorials.SeesawLO_for_CNOT
+
+.. autofunction:: tutorials.Seesaw_CHSH_protocol

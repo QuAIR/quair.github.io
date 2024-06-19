@@ -13,4 +13,4 @@ Supermap
 
 .. autofunction:: Supermap.QSwitch
 
-.. autofunction:: Supermap.QS_K
+.. autofunction:: Supermap.QSwitch_Kraus
