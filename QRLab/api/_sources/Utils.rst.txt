@@ -12,4 +12,6 @@ Utils
 
 .. autofunction:: Utils.KetBra
 
+.. autofunction:: Utils.SwapGenerator
+
 .. autofunction:: Utils.UnitaryChannel
