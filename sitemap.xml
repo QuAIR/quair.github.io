@@ -26,7 +26,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quair.github.io/QRLab/about/</loc>
+         <loc>https://quair.github.io/QRLab/</loc>
          <lastmod>2024-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -37,11 +37,6 @@
     </url>
     <url>
          <loc>https://quair.github.io/avocado/</loc>
-         <lastmod>2024-06-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://quair.github.io/avocado/tutorial/</loc>
          <lastmod>2024-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>

@@ -14,7 +14,7 @@
         <link rel="prev" href="..">
       
       
-        <link rel="next" href="tutorial/">
+        <link rel="next" href="api/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -72,6 +72,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#avocado" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -265,7 +270,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../QRLab/about/" class="md-tabs__link">
+        <a href="../QRLab/" class="md-tabs__link">
           
   
   QRLab
@@ -430,6 +435,19 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -441,27 +459,85 @@
 
       </a>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="tutorial/" class="md-nav__link">
         
-  
-  <span class="md-ellipsis">
-    Tutorial
-  </span>
-  
 
-      </a>
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      结构介绍
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      功能
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      安装方法
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="安装方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avocado_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      安装 Avocado
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#matlab" class="md-nav__link">
+    <span class="md-ellipsis">
+      链接 MATLAB
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#avocadoapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      本地打开Avocado的API文档
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -540,7 +616,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../QRLab/about/" class="md-nav__link">
+      <a href="../QRLab/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -639,6 +715,76 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      结构介绍
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      功能
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      安装方法
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="安装方法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avocado_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      安装 Avocado
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#matlab" class="md-nav__link">
+    <span class="md-ellipsis">
+      链接 MATLAB
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#avocadoapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      本地打开Avocado的API文档
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -656,9 +802,70 @@
   
 
 
-  <h1>About</h1>
-
-<p><strong>Avocado</strong> is a quantum rsearch platform designed to empower researchers in the QuAIR team, by providing a robust and efficient suite of tools tailored for quantum computing and quantum information research.</p>
+<h1 id="avocado">Avocado</h1>
+<p>QuAIR 团队的量子计算研究平台（建设中）</p>
+<h2 id="_1">结构介绍</h2>
+<ul>
+<li>
+<p><code>avocado</code>: 主模块，含以下子模块/接口</p>
+</li>
+<li>
+<p><code>ansatz</code>: 电路模板设计</p>
+</li>
+<li><code>core</code>: 核心逻辑计算</li>
+<li><code>database</code>: 量子数据库</li>
+<li><code>operator</code>: 量子操作集<ul>
+<li><code>channel</code>: 量子信道集</li>
+<li><code>gate</code>: 量子门集</li>
+</ul>
+</li>
+<li><code>circuit</code>: 量子电路接口</li>
+<li>
+<p><code>qinfo</code>: 量子算法/信息工具集</p>
+</li>
+<li>
+<p><code>docs</code>: API 生产目录</p>
+</li>
+<li><code>tests</code>: 单元测试集</li>
+</ul>
+<h2 id="_2">功能</h2>
+<ul>
+<li>QNN 算法模拟</li>
+<li>量子电路模拟 &amp; 展示</li>
+<li>量子信道模拟</li>
+<li>量子算法/信息工具集</li>
+</ul>
+<h2 id="_3">安装方法</h2>
+<h3 id="avocado_1">安装 Avocado</h3>
+<p>首先安装/激活 anaconda 环境的指令</p>
+<pre><code class="language-bash">conda create -n avocado python=3.10
+conda activate avocado
+conda install jupyter notebook # 配置 jupyter 环境
+</code></pre>
+<p>使用 <code>pip install -e .</code> 安装 avocado。具体代码如下</p>
+<pre><code class="language-bash">cd &quot;C:\Users\#YOUR NAME HERE#\Avocado-Dev&quot; # 切换到代码库文件夹所在位置
+pip install -e . # 安装 avocado
+</code></pre>
+<h3 id="matlab">链接 MATLAB</h3>
+<blockquote>
+<p>请注意 MATLAB 版本兼容不同的 Python 版本。详见<a href="https://ww2.mathworks.cn/support/requirements/python-compatibility.html">官方文档</a>。</p>
+</blockquote>
+<p>可以使用下列指令链接最新版 MATLAB</p>
+<pre><code class="language-bash">pip install matlabengine # 如使用最新版 MATLAB，则使用该指令安装
+</code></pre>
+<p>若你正在使用旧版 MATLAB, 则上述指令会弹出 error 信息。该信息会包括</p>
+<pre><code class="language-text">RuntimeError: No compatible MATLAB installation found in Windows Registry. This release of MATLAB Engine API for Python is compatible with version yy.y. The found version were xx.x.
+</code></pre>
+<p>此时，改运行下列指令即可。</p>
+<pre><code class="language-bash">pip install matlabengine==xx.x.1
+</code></pre>
+<h2 id="avocadoapi">本地打开Avocado的API文档</h2>
+<p>在 bash 环境中运行以下指令，运行完成后API文档就会自动打开：</p>
+<pre><code class="language-bash">cd &quot;C:\Users\#YOUR NAME HERE#\QuAIR-platform&quot; # 切换到代码库文件夹所在位置
+./api.sh # 输入此指令回车后稍等会更新
+</code></pre>
+<p>API文档首页位置在
+<code>\docs\api\index.html</code></p>
 
 
 
@@ -711,13 +918,13 @@
         
         
           
-          <a href="tutorial/" class="md-footer__link md-footer__link--next" aria-label="Next: Tutorial">
+          <a href="api/" class="md-footer__link md-footer__link--next" aria-label="Next: API">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Tutorial
+                API
               </div>
             </div>
             <div class="md-footer__button md-icon">
