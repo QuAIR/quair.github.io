@@ -7,10 +7,10 @@
 - **Entanglement Theory**: 
 
     - *Static Entanglement Measure*: Tempered Logarithmic Negativity $E_{
-tau}$, Rains Bound $R$, MaxRainsEntropy $R_{
-max}$, Logarithmic Negativity $E_{N}$, $E_{
-mathrm{PPT}}$, $E_
-eta$
+\mathrm{\tau}}$, Rains Bound $R$, MaxRainsEntropy $R_{
+\mathrm{max}}$, Logarithmic Negativity $E_\text{N}$, $E_{
+\mathrm{PPT}}$, $E_
+\mathrm{eta}$
 
     - *Dynamic Entanglement Measure*: Max Logarithmic Negativity, Max Rains information. 
 
