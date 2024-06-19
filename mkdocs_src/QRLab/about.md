@@ -1,61 +1,61 @@
 # QRLab
 
-QRLab is a MATLAB toolbox for exploring quantum information processing and quantum resource theory.
+**QRLab** is a MATLAB toolbox for exploring quantum information processing and quantum resource theory.
 
 
 ## Features
 - **Entanglement Theory**: 
 
- -- *Static Entanglement Measure*: Tempered Logarithmic Negativity $E_{
+    - *Static Entanglement Measure*: Tempered Logarithmic Negativity $E_{
 tau}$, Rains Bound $R$, MaxRainsEntropy $R_{
 max}$, Logarithmic Negativity $E_{N}$, $E_{
 mathrm{PPT}}$, $E_
 eta$
 
- -- *Dynamic Entanglement Measure*: Max Logarithmic Negativity, Max Rains information. 
+    - *Dynamic Entanglement Measure*: Max Logarithmic Negativity, Max Rains information. 
 
- -- *Quantum Capacity*
+    - *Quantum Capacity*
 
 - **Coherence Theory**: 
 
- -- *Static Coherence Measure*: Robustness of Coherence 
+    - *Static Coherence Measure*: Robustness of Coherence 
 
- -- *Channel Simulation*: Simulating non-free operations via resource states.
+    - *Channel Simulation*: Simulating non-free operations via resource states.
 
 - **Magic Theory**: 
 
- -- *Static Magic Measure*: Robustness of Magic (qubit), Magic Mana (qudit), max/min Thuama (qudit) 
+    - *Static Magic Measure*: Robustness of Magic (qubit), Magic Mana (qudit), max/min Thuama (qudit) 
 
- -- *Representative Magic State Generation*
+    - *Representative Magic State Generation*
 
 
 - **Quasi-Theory**: 
 
- -- Probabilistic error cancelation 
+    - Probabilistic error cancelation 
 
- -- Observable dependent probabilistic error cancellation 
+    - Observable dependent probabilistic error cancellation 
 
- -- Observable dependent deterministic error cancelation 
+    - Observable dependent deterministic error cancelation 
 
- -- Circuit Knitting 
+    - Circuit Knitting 
 
- -- Virtual Recovery
+    - Virtual Recovery
 
 - **Supermap**: 
- -- Quantum Switch (both kraus and choi), Apply Quantum Switch
- -- Link Product
+    - Quantum Switch (both kraus and choi), Apply Quantum Switch
+    - Link Product
 
 - **Seesaw Algorithms**: Algorithms for providing sub-optimal solutions for non-linear optimization problems. 
 
- -- CHSH game 
+    - CHSH game 
 
- -- LOCC protocol
+    - LOCC protocol
 
 - **Extra Functions - Quantum Information Processing**: 
 
- -- Conditional quantum mutual information 
+    - Conditional quantum mutual information 
 
- -- Virtual Markovian State
+    - Virtual Markovian State
 
 ## Requirements
 1. QETLAB == 0.9
