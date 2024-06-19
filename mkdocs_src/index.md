@@ -23,13 +23,17 @@ hide:
 ## Avocado
 **Avocado** is a quantum research platform designed to empower researchers in the QuAIR team, by providing a robust and efficient suite of tools tailored for quantum computing and quantum information research.
 
-## MPQQ
-**MPQQ**: Matlab Package for Quantum Information Processing and Quantum Resource Theory is a MATLAB toolbox for exploring quantum resource theory.
+## QRLab
+**QRLab**: Matlab Package for Quantum Information Processing and Quantum Resource Theory is a MATLAB toolbox for exploring quantum information processing and quantum resource theory.
 
 ### Features
-- **Resource Measure**: Functions to calculate the amount of resource for the given state/channel within entanglement, coherence, and magic theories. 
-- **Channel Simulation**: Capabilities to simulate quantum channels within different resource theories.
-- **Error Mitigation**: Tools to compute the optimal probabilistic error cancellation protocols for a given noisy channel.
+- **Entanglement Theory**: Static and dynamic measures including Logarithmic Negativity, Rains Bound, and Quantum Capacity.
+- **Coherence Theory**: Robustness of Coherence and channel simulation.
+- **Magic Theory**: Robustness of Magic, Magic Mana, and state generation.
+- **Quasi-Theory**: Error mitigation techniques like probabilistic and deterministic error cancellation.
+- **Supermap**: Quantum Switch operations and Link Product.
+- **Seesaw Algorithms**: Sub-optimal solutions for non-linear optimization problems like CHSH game and LOCC protocol.
+- **Extra Functions**: Conditional quantum mutual information and Virtual Markovian State.
 
 ## QuICK
 **QuICK**: Quantum Integrity and Correction Kit is a quantum error correction package in the QuAIR team (under construction). The tools are for code construction and decoding.
