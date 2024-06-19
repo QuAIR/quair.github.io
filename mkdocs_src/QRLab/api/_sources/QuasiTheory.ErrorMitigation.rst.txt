@@ -14,5 +14,3 @@ QuasiTheory.ErrorMitigation
 .. autofunction:: QuasiTheory.ErrorMitigation.ProbErrorCancelOS
 
 .. autofunction:: QuasiTheory.ErrorMitigation.SwapGenerator
-
-.. autofunction:: QuasiTheory.ErrorMitigation.testing

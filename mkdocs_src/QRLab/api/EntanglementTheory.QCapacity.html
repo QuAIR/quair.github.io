@@ -203,6 +203,22 @@
 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="Coherence.html" class="md-nav__link">
+        <span class="md-ellipsis">Coherence</span>
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -210,7 +226,7 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -218,14 +234,14 @@
         <div class="md-nav__link md-nav__link--index ">
           <a href="EntanglementTheory.html"><span class="md-ellipsis">Entanglement<wbr>Theory</span></a>
           
-            <label for="__nav_1">
+            <label for="__nav_2">
               <span class="md-nav__icon md-icon"></span>
             </label>
           
         </div>
       
       <nav class="md-nav" aria-label="EntanglementTheory" data-md-level="1">
-        <label class="md-nav__title" for="__nav_1">
+        <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           <span class="md-ellipsis">Entanglement<wbr>Theory</span>
         </label>
@@ -493,40 +509,8 @@
   
   
     <li class="md-nav__item">
-      <a href="Utils.html" class="md-nav__link">
-        <span class="md-ellipsis">Utils</span>
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="tutorials.html" class="md-nav__link">
-        <span class="md-ellipsis">tutorials</span>
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="seesaw.html" class="md-nav__link">
-        <span class="md-ellipsis">seesaw</span>
+      <a href="Magic.html" class="md-nav__link">
+        <span class="md-ellipsis">Magic</span>
       </a>
     </li>
   
@@ -557,40 +541,56 @@
   
   
     <li class="md-nav__item">
-      <a href="Coherence.html" class="md-nav__link">
-        <span class="md-ellipsis">Coherence</span>
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="Magic.html" class="md-nav__link">
-        <span class="md-ellipsis">Magic</span>
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="Supermap.html" class="md-nav__link">
         <span class="md-ellipsis">Supermap</span>
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Utils.html" class="md-nav__link">
+        <span class="md-ellipsis">Utils</span>
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="seesaw.html" class="md-nav__link">
+        <span class="md-ellipsis">seesaw</span>
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tutorials.html" class="md-nav__link">
+        <span class="md-ellipsis">tutorials</span>
       </a>
     </li>
   
@@ -828,6 +828,12 @@ and <span class="math notranslate nohighlight">\(\Phi:\mathcal{X}\rightarrow \ma
 <dd class="field-even"><p>numeric</p>
 </dd>
 </dl>
+<div class="note admonition">
+<p class="admonition-title">Note</p>
+<p>Hayashi, M., &amp; Nagaoka, H. (2003).
+General formulas for capacity of classical-quantum channels.
+IEEE Transactions on Information Theory, 49(7), 1753-1768.</p>
+</div>
 </dd></dl>
 
 <dl class="mat function objdesc">
@@ -850,6 +856,12 @@ and <span class="math notranslate nohighlight">\(\Phi:\mathcal{X}\rightarrow \ma
 <dd class="field-odd"><p>numeric</p>
 </dd>
 </dl>
+<div class="note admonition">
+<p class="admonition-title">Note</p>
+<p>Bennett, C. H., Shor, P. W., Smolin, J. A., &amp; Thapliyal, A. V. (2002).
+Entanglement-assisted capacity of a quantum channel and the reverse Shannon theorem.
+IEEE transactions on Information Theory, 48(10), 2637-2655.</p>
+</div>
 </dd></dl>
 
 <dl class="mat function objdesc">
@@ -908,11 +920,12 @@ and <span class="math notranslate nohighlight">\(\Phi:\mathcal{X}\rightarrow \ma
 </ul>
 </dd>
 <dt class="field-even" id="EntanglementTheory.QCapacity.RelEntropyRecovery-returns">Returns<span class="colon">:</span><a class="headerlink" href="#EntanglementTheory.QCapacity.RelEntropyRecovery-returns" title="Permalink to this headline">¶</a></dt>
-<dd class="field-even"><p>The relative entropy of recovery of <span class="math notranslate nohighlight">\(\rho_{ABC}\)</span>.
-numeric: The Choi matrix of the recovery channel.</p>
+<dd class="field-even"><p><p>val: The relative entropy of recovery of <span class="math notranslate nohighlight">\(\rho_{ABC}\)</span>.</p>
+<p>JR: The Choi matrix of the recovery channel.</p>
+</p>
 </dd>
 <dt class="field-odd" id="EntanglementTheory.QCapacity.RelEntropyRecovery-return-type">Return type<span class="colon">:</span><a class="headerlink" href="#EntanglementTheory.QCapacity.RelEntropyRecovery-return-type" title="Permalink to this headline">¶</a></dt>
-<dd class="field-odd"><p>numeric</p>
+<dd class="field-odd"><p>[numeric, numeric]</p>
 </dd>
 </dl>
 </dd></dl>

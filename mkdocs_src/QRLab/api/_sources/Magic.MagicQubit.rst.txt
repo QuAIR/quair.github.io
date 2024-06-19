@@ -15,12 +15,10 @@ Magic.MagicQubit
 
 .. autofunction:: Magic.MagicQubit.RandomCSPO
 
-.. autofunction:: Magic.MagicQubit.RobMag
-
 .. autofunction:: Magic.MagicQubit.RoM_Chan
 
-.. autofunction:: Magic.MagicQubit.Stabilizer_Renyi_Entropy
+.. autofunction:: Magic.MagicQubit.RobMag
 
-.. autofunction:: Magic.MagicQubit.Test_RobMag
+.. autofunction:: Magic.MagicQubit.Stabilizer_Renyi_Entropy
 
 .. autofunction:: Magic.MagicQubit.Trans_K

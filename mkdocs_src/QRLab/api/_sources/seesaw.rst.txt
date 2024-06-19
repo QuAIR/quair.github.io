@@ -9,3 +9,5 @@ seesaw
    seesaw.SeesawLO
 
 .. autofunction:: seesaw.CHSHgame
+
+.. autofunction:: seesaw.OptCHSHgame

@@ -9,11 +9,11 @@ Welcome to QRLab's documentation!
 .. toctree::
    :maxdepth: 1
 
-   EntanglementTheory
-   Utils
-   tutorials
-   seesaw
-   QuasiTheory
    Coherence
+   EntanglementTheory
    Magic
+   QuasiTheory
    Supermap
+   Utils
+   seesaw
+   tutorials
