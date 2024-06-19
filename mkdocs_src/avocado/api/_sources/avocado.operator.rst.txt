@@ -5,6 +5,7 @@ avocado.operator
 	:members:
 
 .. toctree::
+    :maxdepth: 2
 
     avocado.operator.channel
     avocado.operator.gate

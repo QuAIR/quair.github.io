@@ -5,6 +5,7 @@ avocado.loss
 	:members:
 
 .. toctree::
+    :maxdepth: 2
 
     avocado.loss.distance
     avocado.loss.measure

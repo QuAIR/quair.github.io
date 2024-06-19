@@ -5,7 +5,7 @@ avocado.ansatz
 	:members:
 
 .. toctree::
+    :maxdepth: 2
 
     avocado.ansatz.container
     avocado.ansatz.layer
-    avocado.ansatz.test_u_depo_pqc_comb_data

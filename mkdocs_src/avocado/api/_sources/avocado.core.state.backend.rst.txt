@@ -5,6 +5,7 @@ avocado.core.state.backend
 	:members:
 
 .. toctree::
+    :maxdepth: 2
 
     avocado.core.state.backend.density_matrix
     avocado.core.state.backend.state_vector

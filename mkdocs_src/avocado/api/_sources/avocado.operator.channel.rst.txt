@@ -5,8 +5,8 @@ avocado.operator.channel
 	:members:
 
 .. toctree::
+    :maxdepth: 2
 
     avocado.operator.channel.base
     avocado.operator.channel.common
     avocado.operator.channel.custom
-    avocado.operator.channel.functional

@@ -7,7 +7,6 @@ Welcome to Avocado's documentation!
 
 .. toctree::
     :maxdepth: 1
-    :caption: API Documentation
 
     avocado.ansatz
     avocado.circuit
@@ -16,4 +15,3 @@ Welcome to Avocado's documentation!
     avocado.loss
     avocado.operator
     avocado.qinfo
-    avocado.qpp
