@@ -1,6 +1,0 @@
-avocado.operator.gate.base
-==========================
-
-.. automodule:: avocado.operator.gate.base
-	:members:
-

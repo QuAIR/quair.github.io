@@ -1,6 +1,0 @@
-avocado.database.hamiltonian
-============================
-
-.. automodule:: avocado.database.hamiltonian
-	:members:
-

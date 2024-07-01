@@ -1,6 +1,0 @@
-avocado.operator.gate.encoding
-==============================
-
-.. automodule:: avocado.operator.gate.encoding
-	:members:
-
