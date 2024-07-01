@@ -1,8 +1,0 @@
-avocado.core.backend
-====================
-
-.. automodule:: avocado.core.backend
-	:members:
-
-.. toctree::
-

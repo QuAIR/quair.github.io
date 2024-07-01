@@ -1,6 +1,0 @@
-avocado.core.state.state
-========================
-
-.. automodule:: avocado.core.state.state
-	:members:
-

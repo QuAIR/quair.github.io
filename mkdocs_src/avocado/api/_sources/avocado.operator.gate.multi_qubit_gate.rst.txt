@@ -1,6 +1,0 @@
-avocado.operator.gate.multi_qubit_gate
-======================================
-
-.. automodule:: avocado.operator.gate.multi_qubit_gate
-	:members:
-

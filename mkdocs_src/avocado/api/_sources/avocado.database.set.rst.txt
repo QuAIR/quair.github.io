@@ -1,6 +1,0 @@
-avocado.database.set
-====================
-
-.. automodule:: avocado.database.set
-	:members:
-

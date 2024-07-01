@@ -1,8 +1,0 @@
-avocado.operator.gate.functional
-================================
-
-.. automodule:: avocado.operator.gate.functional
-	:members:
-
-.. toctree::
-

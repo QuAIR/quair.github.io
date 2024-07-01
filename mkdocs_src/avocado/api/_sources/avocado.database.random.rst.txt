@@ -1,6 +1,0 @@
-avocado.database.random
-=======================
-
-.. automodule:: avocado.database.random
-	:members:
-

@@ -1,6 +1,0 @@
-avocado.ansatz.container
-========================
-
-.. automodule:: avocado.ansatz.container
-	:members:
-
