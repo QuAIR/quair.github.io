@@ -6,8 +6,6 @@ repo_url: https://github.com/QuAIR
 nav:
   - Home: index.md
   - QuAIRKit:
-      - About: QuAIRKit/index.md
-      - API: https://quair.github.io/QuAIRKit/
   - QRLab:
       - About: QRLab/index.md
       - API: QRLab/api/index.html
