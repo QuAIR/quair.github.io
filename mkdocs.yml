@@ -7,7 +7,7 @@ nav:
   - Home: index.md
   - QuAIRKit:
       - About: QuAIRKit/index.md
-      - API: QuAIRKit/https://quair.github.io/QuAIRKit/
+      - API: https://quair.github.io/QuAIRKit/
   - QRLab:
       - About: QRLab/index.md
       - API: QRLab/api/index.html
