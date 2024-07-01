@@ -5,10 +5,10 @@ site_url: https://www.quairkit.com/
 repo_url: https://github.com/QuAIR
 nav:
   - Home: index.md
-  - Avocado:
-      - About: avocado/index.md
+  - QuAIRKit:
+      - About: QuAIRKit/README.md
       - API: https://quair.github.io/QuAIRKit/
-  - QRLab: 
+  - QRLab:
       - About: QRLab/index.md
       - API: QRLab/api/index.html
   - QuICK: QuICK/about.md
@@ -67,6 +67,5 @@ markdown_extensions:
       generic: true
 
 extra_javascript:
-  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

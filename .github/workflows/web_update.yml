@@ -40,11 +40,6 @@ jobs:
       - name: Build MkDocs Site  # Step to build the MkDocs site.
         run: |
           mkdocs build -f mkdocs.yml
-      
-      # - name: Generate Sphinx Documentation for API Documentation  # Step to generate Sphinx documentation.
-      #   run: |
-      #     python docs/avocado/update_avocado_rst.py
-      #     sphinx-build -b html docs/avocado/sphinx_src docs/site/avocado/api
 
       - name: Upload artifact  # Step to upload the built site as an artifact.
         uses: actions/upload-pages-artifact@v3

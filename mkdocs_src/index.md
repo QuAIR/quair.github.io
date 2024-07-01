@@ -9,7 +9,6 @@ hide:
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1; padding: 10px;">
-    <h1>Quantum AI</h1>
     <p>Quantum AI Research (QuAIR) Lab, led by Prof. <a href="https://www.quair.group">Xin Wang</a> at HKUST (Guangzhou), is dedicated to pushing the fundamental boundaries of quantum information processing and driving technological advancements for quantum computing, guided by AI for Quantum and Quantum for AI.</p>
   </div>
   <div style="flex: 1; padding: 10px;">
@@ -18,10 +17,10 @@ hide:
 </div>
 
 
-# QuAIR-Platform (beta)
+# QuAIR-Platform
 
-## Avocado
-**Avocado** is a quantum research platform designed to empower researchers in the QuAIR team, by providing a robust and efficient suite of tools tailored for quantum computing and quantum information research.
+## QuAIRKit
+**QuAIRKit** is a Python research framework for quantum computing, quantum information, and quantum machine learning algorithm development. It focuses on flexible design, real-time simulation and rapid verification of quantum and classical algorithms.
 
 ## QRLab
 **QRLab**: Matlab Package for Quantum Information Processing and Quantum Resource Theory is a MATLAB toolbox for exploring quantum information processing and quantum resource theory.
