@@ -1,5 +1,6 @@
 docs_dir: mkdocs_src
 site_dir: site
+site_url: https://quair.github.io/index.html
 site_name: QuAIR-Platform (beta)
 repo_url: https://github.com/QuAIR
 nav:
