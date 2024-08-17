@@ -16,16 +16,18 @@ hide:
   </div>
 </div>
 
-
 # QuAIR-Platform
 
 ## QuAIRKit
+
 **QuAIRKit** is a Python research framework for quantum computing, quantum information, and quantum machine learning algorithm development. It focuses on flexible design, real-time simulation and rapid verification of quantum and classical algorithms.
 
 ## QRLab
+
 **QRLab**: Matlab Package for Quantum Information Processing and Quantum Resource Theory is a MATLAB toolbox for exploring quantum information processing and quantum resource theory.
 
 ### Features
+
 - **Entanglement Theory**: Static and dynamic measures including Logarithmic Negativity, Rains Bound, and Quantum Capacity.
 - **Coherence Theory**: Robustness of Coherence and channel simulation.
 - **Magic Theory**: Robustness of Magic, Magic Mana, and state generation.
@@ -35,9 +37,11 @@ hide:
 - **Extra Functions**: Conditional quantum mutual information and Virtual Markovian State.
 
 ## QuICK
+
 **QuICK**: Quantum Integrity and Correction Kit is a quantum error correction package in the QuAIR team (under construction). The tools are for code construction and decoding.
 
 ### Features
+
 - **QuICK**: contain error correction codes include:
   - **code**: classical and quantum code construction
     - **ClassicalCode**: binary classical linear block code
@@ -46,3 +50,5 @@ hide:
     - **HGP**: quantum hypergraph product code
     - **LP**: quantum lifted product code
   - **utils**: binary linear algebra and code utilities
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=7dN_nmrWkSeUTYb4uBOR0y5IBEYz2-DkfFxv7jas8e0"></script>
