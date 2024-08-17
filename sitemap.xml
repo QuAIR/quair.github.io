@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://quair.github.io/index.html/</loc>
+         <loc>https://quairkit.com/index.html/</loc>
          <lastmod>2024-08-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quair.github.io/index.html/research/</loc>
+         <loc>https://quairkit.com/index.html/research/</loc>
          <lastmod>2024-08-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quair.github.io/index.html/QRLab/</loc>
+         <loc>https://quairkit.com/index.html/QRLab/</loc>
          <lastmod>2024-08-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://quair.github.io/index.html/QuAIRKit/</loc>
-         <lastmod>2024-08-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://quair.github.io/index.html/QuICK/</loc>
+         <loc>https://quairkit.com/index.html/QuICK/</loc>
          <lastmod>2024-08-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
