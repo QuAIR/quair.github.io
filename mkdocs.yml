@@ -8,7 +8,7 @@ nav:
   - QuAIRKit: https://quair.github.io/QuAIRKit/
   - QRLab:
       - About: QRLab/index.md
-      - API: https://quair.github.io/QRLab/
+      - API: QRLab/api/index.html
   - QuICK: QuICK/index.md
   - Research: research.md
 
