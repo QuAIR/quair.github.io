@@ -1,0 +1,11 @@
+Utils.func_from_others
+======================
+
+.. automodule:: Utils.func_from_others
+
+.. toctree::
+   :maxdepth: 1
+
+   Utils.func_from_others.Fawzi_func
+
+.. autofunction:: Utils.func_from_others.enumeratePaulis
