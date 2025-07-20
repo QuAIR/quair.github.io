@@ -35,21 +35,19 @@ jobs:
 
       - name: Install dependencies  # Step to install dependencies.
         run: |
-          pip install mkdocs mkdocs-material
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Build MkDocs Site  # Step to build the MkDocs site.
+      - name: Build documentation
         run: |
-          mkdocs build -f mkdocs.yml
-
-      - name: Upload artifact  # Step to upload the built site as an artifact.
-        uses: actions/upload-pages-artifact@v3
+          sphinx-build -b html . site
+          
+      - name: Create CNAME file
+        run: echo "quairkit.com" > site/CNAME
+        
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: site
-
-      - name: Deploy to GitHub Pages  # Step to deploy to GitHub Pages.
-        id: deployment
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          publish_branch: gh-pages  # Specifies the branch to deploy to.
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Authenticates using a GitHub Token.
-          publish_dir: ./site  # Specifies the directory to deploy.
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
