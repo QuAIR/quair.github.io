@@ -2,7 +2,7 @@
 <html lang="en" data-accent-color="violet" data-content_root="./">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>QuAIR-Platform beta documentation</title><link rel="shortcut icon" href="_static/avocado-icon.svg"/><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="QuICK" href="quick/index.html" /><script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>QuAIR-Platform beta documentation</title><link rel="shortcut icon" href="_static/avocado-icon.svg"/><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><script>
     function setColorMode(t){let e=document.documentElement;e.setAttribute("data-color-mode",t);let a=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,s=t;"auto"===t&&(s=a?"dark":"light"),"light"===s?(e.classList.remove("dark"),e.classList.add("light")):(e.classList.remove("light"),e.classList.add("dark"))}
     setColorMode(localStorage._theme||"auto");
   </script><link rel="stylesheet" type="text/css" href="_static/pygments.css?v=397bb51e" />
@@ -17,9 +17,25 @@
   --sy-f-heading: "Inter", var(--sy-f-sys), var(--sy-f-cjk), sans-serif;
 }
 </style>
-    <meta property="og:type" content="website"/><meta property="og:title" content="QuAIR-Platform"/>
-<meta name="twitter:card" content="summary"/>
-  </head>
+    
+<style>
+  .yue {
+    padding-bottom: 2rem;
+  }
+  .yue section:first-of-type h1 {
+    font-size: 4.2rem;
+    margin-top: 3.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .injected,
+  .yue a.headerlink {
+    display: none;
+  }
+</style>
+
+  <meta property="og:type" content="website"/><meta property="og:title" content="&lt;no title&gt;"/>
+<meta name="twitter:card" content="summary"/></head>
 <body><div class="sy-head">
   <div class="sy-head-blur"></div>
   <div class="sy-head-inner sy-container mx-auto">
@@ -58,137 +74,190 @@ data-aria-dark="Switch to auto color mode">
       </button>
     </div>
   </div>
-</div>
-<div class="sy-page sy-container flex mx-auto">
-  <aside id="lside" class="sy-lside md:w-72 md:shrink-0 print:hidden">
-    <div class="sy-lside-inner md:sticky">
-      <div class="sy-scrollbar p-6">
-        <div class="globaltoc" data-expand-depth="0"><ul>
-<li class="toctree-l1"><a class="reference internal" href="quick/index.html">QuICK</a></li>
-<li class="toctree-l1"><a class="reference internal" href="research.html">Research</a></li>
-</ul>
-<p class="caption" role="heading" aria-level="3"><span class="caption-text">External Links</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference external" href="https://quairkit.com/QuAIRKit/">QuAIRKit</a></li>
-<li class="toctree-l1"><a class="reference external" href="https://quairkit.com/QRLab/">QRLab</a></li>
-</ul>
+</div><div class="sy-container mx-auto body">
+    <main class="sy-content mx-auto pt-12 px-6 xl:px-12 break-words">
+      <article class="yue" role="main">
+        <style>
+    .full-width-banner {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        padding: 4rem 0;
+        background: linear-gradient(0deg,
+            rgba(136, 180, 167, 0.5) 50%,
+            transparent 100%
+        );
+    }
 
+
+    html {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .full-width-banner h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #36454fff; /* default for light mode */
+    }
+
+    html.dark .full-width-banner h1 {
+        color: #88b4a7ff; /* dark mode color */
+    }
+
+    .full-width-banner p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #36454fff; /* default for light mode */
+    }
+
+    html.dark .full-width-banner p {
+        color: #88b4a7ff; /* dark mode color */
+    }
+
+    .button {
+        margin-left: 5px;
+        margin-right: 5px; /* Adds 10px space to the right of the button */
+    }
+
+    a.button.reference.internal:hover {
+        color: #88b4a7ff;
+    }
+
+    a.button.reference.external {
+        /* Additional external link styling */
+        background-color: #36454fff;
+        color: #ffffff;
+        border: 2px solid #36454fff;
+    }
+
+    a.button.reference.external:hover {
+        background-color: #ffffff;
+        color: #36454fff;
+        border:2px solid #36454fff;
+    }
+
+    html.dark a.button.reference.external:hover {
+        background-color: #000000;
+    }
+
+    .features {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+
+    .features-section {
+        text-align: center;
+        margin: 4rem 0;
+    }
+
+    .features-section p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        margin-top: 3rem;
+    }
+
+    .features-section h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .feature {
+        flex: 1;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    @media (max-width: 768px) {
+        .features {
+            flex-direction: column;
+            align-items: center; /* center content if desired */
+        }
+    }
+
+    .feature h3 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+    .feature p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    html .light-img {
+        display: block;
+    }
+
+    html .dark-img {
+        display: none;
+    }
+
+    html.dark .dark-img {
+        display: block;
+    }
+
+    html.dark .light-img {
+        display: none;
+    }
+</style>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<div class="full-width-banner" style="padding: 0; margin-bottom: 48px; height: calc(100vh - 56px - 48px); box-sizing: border-box;">
+    <div class="hero-content" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;">
+        <img src="_static/logo.svg" alt="QICS Logo">
+        <h1 style="font-size: 7rem; margin-bottom: 0px">QuAIR-Platform</h1>
+        <p style="font-size: 1.5rem;">Quantum AI Research Platforms</p>
+        <div class="container buttons" style="margin-top: 64px">
+            <a href="https://quair.group" class="button reference internal">Team</a>
+            <a href="https://github.com/QuAIR" class="button reference external">GitHub</a>
         </div>
-      </div>
     </div>
-  </aside>
-  <div class="lside-overlay js-menu" role="button" aria-label="Close left sidebar" aria-controls="lside" aria-expanded="false"></div>
-  <aside id="rside" class="sy-rside pb-3 w-64 shrink-0 order-last">
-    <button class="rside-close js-menu xl:hidden" aria-label="Close Table of Contents" type="button" aria-controls="rside" aria-expanded="false">
-      <i class="i-lucide close"></i>
-    </button>
-    <div class="sy-scrollbar sy-rside-inner px-6 xl:top-16 xl:sticky xl:pl-0 pt-6 pb-4"></div>
-  </aside>
-  <div class="rside-overlay js-menu" role="button" aria-label="Close Table of Contents" aria-controls="rside" aria-expanded="false"></div>
-  <main class="sy-main w-full max-sm:max-w-full print:pt-6">
-<div class="sy-breadcrumbs" role="navigation">
-  <div class="sy-breadcrumbs-inner flex items-center">
-    <div class="md:hidden mr-3">
-      <button class="js-menu" aria-label="Menu" type="button" aria-controls="lside" aria-expanded="false">
-        <i class="i-lucide menu"></i>
-      </button>
-    </div>
-    <ol class="flex-1" itemscope itemtype="https://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a itemprop="item" href="#"><span itemprop="name">QuAIR-Platform</span></a>
-        <meta itemprop="position" content="1" />
-      </li></ol>
-    <div class="xl:hidden ml-1">
-      <button class="js-menu" aria-label="Show table of contents" type="button" aria-controls="rside"
-        aria-expanded="false">
-        <i class="i-lucide outdent"></i>
-      </button>
-    </div>
-  </div>
-</div><div class="flex flex-col break-words justify-between">
-      <div class="min-w-0 max-w-6xl px-6 pb-6 pt-8 xl:px-12">
-        <article class="yue" role="main">
-          <section id="quair-platform">
-<h1>QuAIR-Platform<a class="headerlink" href="#quair-platform" title="Link to this heading">¶</a></h1>
-<a class="reference internal image-reference" href="https://www.quair.group/media/welcome_hu01b1aaffad28f84349178a25160d6ab1_1045841_1200x0_resize_q75_lanczos.jpg"><img alt="Quantum AI Image" class="align-right" src="https://www.quair.group/media/welcome_hu01b1aaffad28f84349178a25160d6ab1_1045841_1200x0_resize_q75_lanczos.jpg" style="width: 50%;" />
-</a>
-<p>Quantum AI Research (QuAIR) Lab, led by Prof. <a class="reference external" href="https://www.quair.group">Xin Wang</a> at HKUST (Guangzhou), is dedicated to pushing the fundamental boundaries of quantum information processing and driving technological advancements for quantum computing, guided by AI for Quantum and Quantum for AI.</p>
-<div class="toctree-wrapper compound">
 </div>
-<div class="toctree-wrapper compound">
-</div>
-<section id="quairkit">
-<h2>QuAIRKit<a class="headerlink" href="#quairkit" title="Link to this heading">¶</a></h2>
-<p><strong>QuAIRKit</strong> is a Python research framework for quantum computing, quantum information, and quantum machine learning algorithm development. It focuses on flexible design, real-time simulation and rapid verification of quantum and classical algorithms.</p>
-<p><a class="reference external" href="https://quairkit.com/QuAIRKit/">Visit QuAIRKit Documentation</a></p>
-</section>
-<section id="qrlab">
-<h2>QRLab<a class="headerlink" href="#qrlab" title="Link to this heading">¶</a></h2>
-<p><strong>QRLab</strong>: Matlab Package for Quantum Information Processing and Quantum Resource Theory is a MATLAB toolbox for exploring quantum information processing and quantum resource theory.</p>
-<p><a class="reference external" href="https://quairkit.com/QRLab/">Visit QRLab Documentation</a></p>
-<section id="features">
-<h3>Features<a class="headerlink" href="#features" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p><strong>Entanglement Theory</strong>: Static and dynamic measures including Logarithmic Negativity, Rains Bound, and Quantum Capacity.</p></li>
-<li><p><strong>Coherence Theory</strong>: Robustness of Coherence and channel simulation.</p></li>
-<li><p><strong>Magic Theory</strong>: Robustness of Magic, Magic Mana, and state generation.</p></li>
-<li><p><strong>Quasi-Theory</strong>: Error mitigation techniques like probabilistic and deterministic error cancellation.</p></li>
-<li><p><strong>Supermap</strong>: Quantum Switch operations and Link Product.</p></li>
-<li><p><strong>Seesaw Algorithms</strong>: Sub-optimal solutions for non-linear optimization problems like CHSH game and LOCC protocol.</p></li>
-<li><p><strong>Extra Functions</strong>: Conditional quantum mutual information and Virtual Markovian State.</p></li>
-</ul>
-</section>
-</section>
-<section id="quick">
-<h2>QuICK<a class="headerlink" href="#quick" title="Link to this heading">¶</a></h2>
-<p><strong>QuICK</strong>: Quantum Integrity and Correction Kit is a quantum error correction package in the QuAIR team (under construction). The tools are for code construction and decoding.</p>
-<section id="id1">
-<h3>Features<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
-<p><strong>QuICK</strong> contains error correction codes including:</p>
-<ul class="simple">
-<li><p><strong>code</strong>: classical and quantum code construction</p>
-<ul>
-<li><p><strong>ClassicalCode</strong>: binary classical linear block code</p></li>
-<li><p><strong>Stabilizer</strong>: quantum stabilizer code</p></li>
-<li><p><strong>CSSCode</strong>: quantum Calderbank-Shor-Steane(CSS) code</p></li>
-<li><p><strong>HGP</strong>: quantum hypergraph product code</p></li>
-<li><p><strong>LP</strong>: quantum lifted product code</p></li>
-</ul>
-</li>
-<li><p><strong>utils</strong>: binary linear algebra and code utilities</p></li>
-</ul>
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=7dN_nmrWkSeUTYb4uBOR0y5IBEYz2-DkfFxv7jas8e0"></script></section>
-</section>
-</section>
-<section id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading">¶</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
-</ul>
-</section>
 
-        </article><button class="back-to-top" type="button">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-    <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
-  </svg>
-  <span>Back to top</span>
-</button><div class="navigation flex print:hidden"><div class="navigation-next">
-    <a href="quick/index.html">
-      <div class="page-info">
-        <span>Next</span>
-        <div class="title">QuICK</div>
-      </div>
-      <i class="i-lucide chevron-right"></i>
-    </a>
-  </div></div></div>
+<div class="features-section">
+    <h2>Softwares</h2>
+    <div class="features">
+        <div class="feature">
+           <h3>QuAIRKit</h3>
+           <p>Python research framework for quantum computing, quantum information, and quantum machine learning algorithm development.</p>
+        </div>
+        <div class="feature">
+           <h3>QRLab</h3>
+           <p>MATLAB toolbox for exploring quantum information processing and quantum resource theory.</p>
+        </div>
+        <div class="feature">
+           <h3>QuICK</h3>
+           <p>Python QEC package (under construction) for code construction and decoding.</p>
+        </div>
     </div>
-  </main>
 </div>
-<footer class="sy-foot">
+      </article>
+      
+
+
+    </main>
+  </div><footer class="sy-foot">
   <div class="sy-foot-inner sy-container mx-auto">
     <div class="sy-foot-reserved md:flex justify-between items-center">
-      <div class="sy-foot-copyright"><p>2024-2025, QuAIR</p>
+      <div class="sy-foot-copyright"><p>2025, Tengxiang Lin, QuAIR. All Rights Reserved.</p>
   
   <p>
     Made with
