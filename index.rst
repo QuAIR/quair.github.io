@@ -147,7 +147,7 @@
 
     <div class="full-width-banner" style="padding: 0; margin-bottom: 48px; height: calc(100vh - 56px - 48px); box-sizing: border-box;">
         <div class="hero-content" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;">
-            <img src="_static/logo.svg" alt="QICS Logo">
+            <img src="_static/logo.svg" alt="QuAIR Logo" style="transform: scale(0.7);">
             <h1 style="font-size: 7rem; margin-bottom: 0px">QuAIR-Platform</h1>
             <p style="font-size: 1.5rem;">Quantum AI Research Platforms</p>
             <div class="container buttons" style="margin-top: 64px">
