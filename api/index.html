@@ -2,7 +2,7 @@
 <html lang="en" data-accent-color="violet" data-content_root="../">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>QuICK - QuAIR-Platform beta documentation</title><link rel="shortcut icon" href="../_static/avocado-icon.svg"/><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>API Reference - QuAIR-Platform beta documentation</title><link rel="shortcut icon" href="../_static/avocado-icon.svg"/><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><script>
     function setColorMode(t){let e=document.documentElement;e.setAttribute("data-color-mode",t);let a=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,s=t;"auto"===t&&(s=a?"dark":"light"),"light"===s?(e.classList.remove("dark"),e.classList.add("light")):(e.classList.remove("light"),e.classList.add("dark"))}
     setColorMode(localStorage._theme||"auto");
   </script><link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=397bb51e" />
@@ -17,7 +17,7 @@
   --sy-f-heading: "Inter", var(--sy-f-sys), var(--sy-f-cjk), sans-serif;
 }
 </style>
-    <meta property="og:type" content="website"/><meta property="og:title" content="QuICK"/>
+    <meta property="og:type" content="website"/><meta property="og:title" content="API Reference"/>
 <meta name="twitter:card" content="summary"/>
   </head>
 <body><div class="sy-head">
@@ -30,11 +30,11 @@
     </a>
     <div class="sy-head-nav" id="HeadNav">
       <nav class="sy-head-links"><ul><li class="link"><a href="../index.html">Home</a></li>
-      <li class="link"><a href="../api/index.html">
+      <li class="link"><a href="#">
             <span>API reference</span>
             <i class="i-lucide chevron-down"></i>
           </a>
-        <ul><li><a href="https://quairkit.com/QuAIRKit/">QuAIRKit</a></li><li><a href="https://quairkit.com/QRLab/">QRLab</a></li><li><a href="../api/quick/index.html">QuICK</a></li></ul>
+        <ul><li><a href="https://quairkit.com/QuAIRKit/">QuAIRKit</a></li><li><a href="https://quairkit.com/QRLab/">QRLab</a></li><li><a href="quick/index.html">QuICK</a></li></ul>
       </li><li class="link"><a href="../research.html">Research</a></li></ul></nav>
       <div class="sy-head-extra flex items-center print:hidden"><form class="searchbox flex items-center" action="../search.html" method="get">
   <input type="text" name="q" placeholder="Search" />
@@ -89,7 +89,7 @@ data-aria-dark="Switch to auto color mode">
         <span>/</span>
         <meta itemprop="position" content="1" />
       </li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <strong itemprop="name">QuICK</strong>
+        <strong itemprop="name">API Reference</strong>
         <meta itemprop="position" content="2" />
       </li></ol>
     <div class="xl:hidden ml-1">
@@ -102,66 +102,41 @@ data-aria-dark="Switch to auto color mode">
 </div><div class="flex flex-col break-words justify-between">
       <div class="min-w-0 max-w-6xl px-6 pb-6 pt-8 xl:px-12">
         <article class="yue" role="main">
-          <section id="quick">
-<h1>QuICK<a class="headerlink" href="#quick" title="Link to this heading">¶</a></h1>
-<p>Quantum Integrity and Correction Kit (QuICK) is a quantum error correction package in the QuAIR team (under construction). The tools are for code construction and decoding.</p>
-<img alt="QuICK Logo" class="align-center" src="quick/logo.png" />
-<section id="features">
-<h2>Features<a class="headerlink" href="#features" title="Link to this heading">¶</a></h2>
-<p><strong>QuICK</strong> contains error correction codes including:</p>
+          <section id="api-reference">
+<h1>API Reference<a class="headerlink" href="#api-reference" title="Link to this heading">¶</a></h1>
+<p>Welcome to the QuAIR Platform API Reference. This section provides comprehensive documentation for all our quantum AI research tools and libraries.</p>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">¶</a></h2>
+<p>The QuAIR Platform consists of several interconnected components designed to facilitate quantum artificial intelligence research:</p>
 <ul class="simple">
-<li><p><strong>code</strong>: classical and quantum code construction</p>
-<ul>
-<li><p><strong>ClassicalCode</strong>: binary classical linear block code</p></li>
-<li><p><strong>Stabilizer</strong>: quantum stabilizer code</p></li>
-<li><p><strong>CSSCode</strong>: quantum Calderbank-Shor-Steane(CSS) code</p></li>
-<li><p><strong>HGP</strong>: quantum hypergraph product code</p></li>
-<li><p><strong>LP</strong>: quantum lifted product code</p></li>
-</ul>
-</li>
-<li><p><strong>utils</strong>: binary linear algebra and code utilities</p></li>
-<li><p><strong>dataset</strong>: commonly used classical and quantum codes</p></li>
-<li><p><strong>error</strong>: simple Pauli error</p></li>
-<li><p><strong>decoder</strong>: code decoder</p>
-<ul>
-<li><p><strong>bp_decoder</strong>: belief propagation sum-product decoder</p></li>
-</ul>
-</li>
-<li><p><strong>tutorial</strong>: tutorials for quantum error correction</p></li>
+<li><p><strong>QuAIRKit</strong>: Python research framework for quantum computing, quantum information, and quantum machine learning algorithm development</p></li>
+<li><p><strong>QRLab</strong>: MATLAB toolbox for exploring quantum information processing and quantum resource theory</p></li>
+<li><p><strong>QuICK</strong>: Python QEC package (under construction) for code construction and decoding</p></li>
 </ul>
 </section>
-<section id="installation">
-<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading">¶</a></h2>
-<p>Set up Anaconda environment:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span data-line="1"><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">quair</span> <span class="n">python</span><span class="o">=</span><span class="mf">3.10</span>
-</span><span data-line="2"><span class="n">conda</span> <span class="n">activate</span> <span class="n">quair</span>
-</span><span data-line="3"><span class="n">conda</span> <span class="n">install</span> <span class="n">jupyter</span> <span class="n">notebook</span>
-</span></pre></div>
+<section id="components">
+<h2>Components<a class="headerlink" href="#components" title="Link to this heading">¶</a></h2>
+<div class="toctree-wrapper compound">
 </div>
-<p>Install QuICK locally:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span data-line="1"><span class="n">cd</span> <span class="o">./&lt;</span> <span class="n">your</span> <span class="n">place</span> <span class="k">for</span> <span class="n">QuICK</span> <span class="o">&gt;</span>
-</span><span data-line="2"><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">e</span> <span class="o">.</span>
-</span></pre></div>
-</div>
+<section id="quairkit">
+<h3>QuAIRKit<a class="headerlink" href="#quairkit" title="Link to this heading">¶</a></h3>
+<p>Python research framework for quantum computing, quantum information, and quantum machine learning algorithm development.</p>
+<p><a class="reference external" href="https://quairkit.com/QuAIRKit/">Visit QuAIRKit Documentation</a></p>
 </section>
-<section id="tutorials">
-<h2>Tutorials<a class="headerlink" href="#tutorials" title="Link to this heading">¶</a></h2>
-<section id="error-correction-codes">
-<h3>Error Correction Codes<a class="headerlink" href="#error-correction-codes" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="./tutorials/code/CSS%20code%20tutorial.ipynb">CSS Code</a></p></li>
-<li><p><a class="reference external" href="./tutorials/code/Hypergraph%20Product%20Code%20tutorial.ipynb">Hypergraph Product Code</a></p></li>
-<li><p><a class="reference external" href="./tutorials/code/Lifted%20Product%20Code%20tutorial.ipynb">Lifted Product Code</a></p></li>
-<li><p><a class="reference external" href="./tutorials/code/Stabilizer%20Code%20tutorial.ipynb">Stabilizer Code</a></p></li>
-</ul>
+<section id="qrlab">
+<h3>QRLab<a class="headerlink" href="#qrlab" title="Link to this heading">¶</a></h3>
+<p>MATLAB toolbox for exploring quantum information processing and quantum resource theory.</p>
+<p><a class="reference external" href="https://quairkit.com/QRLab/">Visit QRLab Documentation</a></p>
 </section>
-<section id="error-correction-decoders">
-<h3>Error Correction Decoders<a class="headerlink" href="#error-correction-decoders" title="Link to this heading">¶</a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="./tutorials/decoder/belief_propagation_demo.ipynb">Belief Propagation Decoder</a></p></li>
-<li><p><a class="reference external" href="./tutorials/decoder/pymatching_decoder_demo.ipynb">PyMatching Decoder</a></p></li>
-</ul>
+<section id="quick">
+<h3>QuICK<a class="headerlink" href="#quick" title="Link to this heading">¶</a></h3>
+<p>Python QEC package (under construction) for code construction and decoding.</p>
+<p><a class="reference internal" href="quick/index.html"><span class="doc">QuICK Documentation</span></a></p>
 </section>
+</section>
+<section id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading">¶</a></h2>
+<p>To begin using any of these APIs, please refer to their respective documentation pages linked above. Each component includes installation instructions, tutorials, and comprehensive API references.</p>
 </section>
 </section>
 
