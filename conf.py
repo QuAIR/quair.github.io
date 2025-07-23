@@ -8,11 +8,11 @@ release = 'beta'
 
 # -- General configuration ---------------------------------------------------
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.napoleon',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.mathjax',
+    "sphinx.ext.viewcode",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.autosectionlabel",
+    "sphinx.ext.doctest",
     'nbsphinx',  # For Markdown and Jupyter notebook support
 ]
 
@@ -44,16 +44,22 @@ html_theme_options = {
             "url": "index",
         },
         {
-            "title": "QuAIRKit",
-            "url": "https://quairkit.com/QuAIRKit/",
-        },
-        {
-            "title": "QRLab", 
-            "url": "https://quairkit.com/QRLab/",
-        },
-        {
-            "title": "QuICK",
-            "url": "quick/index",
+            "title": "API reference",
+            "url": "api/index",
+            "children": [
+                {
+                    "title": "QuAIRKit",
+                    "url": "https://quairkit.com/QuAIRKit/",
+                },
+                {
+                    "title": "QRLab", 
+                    "url": "https://quairkit.com/QRLab/",
+                },
+                {
+                    "title": "QuICK",
+                    "url": "api/quick/index",
+                },
+            ]
         },
         {
             "title": "Research",
@@ -97,12 +103,6 @@ html_sidebars = {
 #         "sidebar-search.html",
 #     ]
 # }
-#     "smartquotes",
-#     "substitution",
-#     "tasklist",
-# ]
-
-# MathJax configuration
 mathjax3_config = {
     'tex': {
         'inlineMath': [['$', '$'], ['\\(', '\\)']],
