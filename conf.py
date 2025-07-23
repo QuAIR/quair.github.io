@@ -2,7 +2,7 @@
 
 # -- Project information -----------------------------------------------------
 project = 'QuAIR-Platform'
-copyright = '2025, Tengxiang Lin, QuAIR. All Rights Reserved.'
+copyright = '2023-%Y, Author Name'
 author = 'Tengxiang Lin'
 release = 'beta'
 
