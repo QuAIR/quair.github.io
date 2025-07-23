@@ -49,11 +49,11 @@ html_theme_options = {
             "children": [
                 {
                     "title": "QuAIRKit",
-                    "url": "https://quairkit.com/QuAIRKit/",
+                    "url": "QuAIRKit/latest/index",
                 },
                 {
                     "title": "QRLab", 
-                    "url": "https://quairkit.com/QRLab/",
+                    "url": "QRLab/index",
                 },
                 {
                     "title": "QuICK",
