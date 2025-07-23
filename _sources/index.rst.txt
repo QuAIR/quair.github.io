@@ -163,11 +163,11 @@
         <h2>Softwares</h2>
         <div class="features">
             <div class="feature">
-               <h3><a href="https://quairkit.com/QuAIRKit/" class="reference external">QuAIRKit</a></h3>
+               <h3><a href="QuAIRKit/latest/index" class="reference internal">QuAIRKit</a></h3>
                <p>Python research framework for quantum computing, quantum information, and quantum machine learning algorithm development.</p>
             </div>
             <div class="feature">
-               <h3><a href="https://quairkit.com/QRLab/" class="reference external">QRLab</a></h3>
+               <h3><a href="QRLab/index" class="reference internal">QRLab</a></h3>
                <p>MATLAB toolbox for exploring quantum information processing and quantum resource theory.</p>
             </div>
             <div class="feature">
