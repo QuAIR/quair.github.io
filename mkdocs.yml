@@ -5,11 +5,11 @@ site_name: QuAIR-Platform (beta)
 repo_url: https://github.com/QuAIR
 nav:
   - Home: index.md
-  - QuAIRLab: lab/
   - QuAIRKit: https://quairkit.com/QuAIRKit/
   - QRLab: https://quairkit.com/QRLab/
   - QuICK: QuICK/index.md
   - Research: research.md
+  - QuAIRLab: lab/
 
 plugins:
   - search
